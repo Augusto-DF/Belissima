@@ -1,4 +1,4 @@
-﻿@media only screen and (max-width: 639px) {
+@media only screen and (max-width: 639px) {
 	/* Header */
 		.menu {
 			position: absolute;
@@ -48,7 +48,7 @@
 
 		.intro h1 {
 			margin: 0;
-			font-family: 'Josefin Slab';
+			font-family: 'Josefin Slab', serif;
 			font-size: 36px;
 			letter-spacing: 1px;
 			font-weight: 300;
