@@ -1,19 +1,16 @@
-
-
 @media only screen and (max-width: 639px) {
 	/* Header */
 		.menu {
 			position: absolute;
+			width: 100%;
 			top: 0px;
-			margin-left: 30px;
 			z-index: 20;
 		}
 
 		.menu-sandwich {
-			position: fixed;
-			right: 30px;
-			top: 30px;
-			z-index: 20;
+			float: right;
+			margin-right: 30px;
+			margin-top: 30px;
 		}
 
 		.menu .menu-sandwich, .menu .logo {
@@ -37,7 +34,7 @@
 		.filter {
 			width: 100%;
 			height: 100vh;
-			background: rgba(0, 0, 0, 0.3);
+			background-color: rgba(0, 0, 0, 0.3);
 		}
 
 		.intro {
@@ -51,7 +48,7 @@
 
 		.intro h1 {
 			margin: 0;
-			font-family: 'Josefin Slab', sans-serif;
+			font-family: 'Josefin Slab', serif;
 			font-size: 36px;
 			letter-spacing: 1px;
 			font-weight: 300;
@@ -65,4 +62,121 @@
 			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 		}
 
+	/* Sessão dos serviços */
+		.second-sc {
+			background-color: #F8F7F5;
+			height: 1298px;
+		}
+
+		.box-service {
+			margin: 0 auto;
+			width: 290px;
+			height: 290px;
+			display: block;
+			margin-top: 30px;
+		}
+
+		.svc-name {
+			position: absolute;
+			margin-top: 230px;
+			font-size: 16px;
+			font-family: 'Josefin Slab', serif;
+			font-weight: 600;
+			width: 290px;
+			height: 60px;
+			background-color: rgba(255, 255, 255, 0.9);
+			color: #000000;			
+			text-align: center;
+		}
+
+		.svc-name h3 {
+			margin-top: 24px;
+		}
+
+		#unha {
+			margin-top: 50px;
+			background: url("../img/home/svc-unha.jpg") no-repeat center;
+		}
+
+		#cabelo {
+			background: url("../img/home/svc-cabelo.jpg") no-repeat center;
+		}
+
+		#depilacao {
+			background: url("../img/home/svc-depilacao.jpg") no-repeat center;
+		}
+
+		#make {
+			background: url("../img/home/svc-make.jpg") no-repeat center;
+		}
+
+	/* Sessão de Transição */
+		.third-sc {
+			height: 613px;
+			background-color: #F8F7F5;
+		}
+
+		.agen {
+			margin-top: 30px;
+			width: 290px;
+			height: 60px;
+			border: 1px solid #0C0906;
+			color: #0C0906;
+		}
+
+		.agen h3 {
+			margin: 0 auto;
+			text-align: center;
+			margin-top: 8px;
+			width: 113px;
+			font-size: 16px;
+			line-height: 21px;
+			font-family: 'Josefin Slab', serif;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+
+		.third-sc img {
+			position: absolute;
+			margin-top: 120px;
+			z-index: 10;
+		}
+
+		.cite {
+			width: 290px;
+			height: 212px;
+			border: 2px solid #D1AB67;
+			margin-top: 191px;
+			text-align: center;
+			font-family: 'Josefin Slab', serif;
+			text-decoration: none;
+		}
+
+		.cite h2 {
+			margin: 0 auto;
+			margin-top: 40px;
+			width: 183px;
+			font-size: 20px;
+			letter-spacing: 2px;
+			font-style: italic;
+		}
+
+		.hor-bar {
+			height: 2px;
+			width: 42px;
+			background-color: #D1AB67;
+		}
+
+		.cite .hor-bar {
+			margin: 0 auto;
+			margin-top: 20.62px;
+		}
+
+		.cite blockquote {
+			margin-top: 20.38px;
+			font-size: 14px;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			font-weight: 600;
+		}
 }
