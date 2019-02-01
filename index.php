@@ -14,10 +14,7 @@
 		</div>		
 	</section>
 
-<<<<<<< HEAD
 <!-- Sessão de Serviços -->
-=======
->>>>>>> 6375c2a3466bdb7d3bf4339f7521a668e9e75dc9
 	<section class="second-sc">
 		<div class="container">
 			<!-- Ancora unha -->
@@ -54,7 +51,6 @@
 			</a>
 		</div>
 	</section>
-<<<<<<< HEAD
 
 <!-- Sessão de transição -->
 	<div class="third-sc">
@@ -70,8 +66,6 @@
 			</div>			
 		</div>
 	</div>	
-=======
->>>>>>> 6375c2a3466bdb7d3bf4339f7521a668e9e75dc9
 
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 </body>
