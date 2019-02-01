@@ -18,7 +18,7 @@
 <body>
 	<header class="menu">
 		<div class="menu-sandwich">
-			<a href="/"><img src="img/header/menu-sandwich.png"></a>
+			<a href=""><img src="img/header/menu-sandwich.png"></a>
 		</div>
 		<div class="container">
 			<div class="logo">
