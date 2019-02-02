@@ -6,7 +6,7 @@
 	<title>Belíssima Esmalteria</title>
 </head>
 <style>
-	@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600');
+	@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700');
 	@import url('https://fonts.googleapis.com/css?family=Niconne:400,600');
 </style>
 <link rel="stylesheet" href="css/reset.css">
@@ -22,7 +22,7 @@
 		</div>
 		<div class="container">
 			<div class="logo">
-				<a href="/"><img src="img/header/logo.png"></a>
+				<a href=""><img src="img/header/logo.png"></a>
 			</div>
 		</div>		
 	</header>

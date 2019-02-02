@@ -117,9 +117,10 @@
 		}
 
 		.agen {
-			margin-top: 30px;
 			width: 290px;
 			height: 60px;
+			margin: 0 auto;
+			margin-top: 30px;
 			border: 1px solid #0C0906;
 			color: #0C0906;
 		}
@@ -145,6 +146,7 @@
 		.cite {
 			width: 290px;
 			height: 212px;
+			margin: 0 auto;
 			border: 2px solid #D1AB67;
 			margin-top: 191px;
 			text-align: center;
@@ -181,7 +183,7 @@
 		}
 
 	/* Sessão de portifólio */
-		.bg-port {
+		.fourth-sc {
 			width: 100%;
 			height: 450px;
 			background-color: #F8F7F5;
@@ -190,6 +192,7 @@
 		.insta {
 			width: 290px;
 			height: 60px;
+			margin: 0 auto;
 			border: 1px solid #0C0906;
 			margin-top: 43px;
 			text-align: center;
@@ -210,8 +213,88 @@
 		.box-port {
 			width: 290px;
 			height: 290px;
+			margin: 0 auto;
 			margin-top: 20px;
 			/* bg temporario */
 			background-color: grey;
+		}
+
+	/* Contatos */
+		.fifth-sc {
+			width: 100%;
+			height: 496px;
+			background: url("../img/home/contacts-bg.jpg");
+			background-position: left -50px top -50px;
+			overflow: hidden;
+		}
+
+		.contacts {
+			position: absolute;
+			width: 290px;
+			height: 436px;
+			margin: 0px 5px;
+			background-color: #F8F7F5;
+			font-size: 18px;
+			color: #D1AB67;
+			font-family: 'Josefin Slab', serif;
+			text-align: center;
+		}
+
+		.contacts h2 {
+			margin-top: 40px;
+			margin-bottom: 40px;
+			font-size: 40px;
+			font-family: 'Niconne', cursive;
+			letter-spacing: 2px;
+		}
+
+		.contacts h3 {
+			text-transform: uppercase;
+			margin-top: 40px;
+			margin-bottom: 10px;
+			font-weight: 600;
+		}
+
+		.contacts h4 {
+			text-transform: capitalize;
+			font-weight: 600;
+			width: 221px;
+			margin: 0 auto;
+		}
+
+	/* Footer */
+		.footer {
+			width: 100%;
+			height: 306px;
+			background-color: #F8F7F5;
+		}
+
+		.f-menu {
+			position: absolute;
+			width: 190px;
+			margin: 0px 55px;
+			margin-top: 12px;			
+		}
+
+		.f-menu li {
+			margin-top: 28px;
+			font-family: 'Josefin Slab', serif;
+			font-size: 14px;
+			text-align: center;
+			text-transform: uppercase;
+			color: #000000;
+			font-weight: 700;
+		}
+
+		.cpr {
+			margin-top: 169px;
+			font-family: 'Josefin Slab', serif;
+			font-size: 18px;
+			text-align: center;
+			line-height: 22px;
+		}
+
+		.cpr img {
+			margin-top: 15px;
 		}
 }
