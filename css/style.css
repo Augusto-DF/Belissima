@@ -64,7 +64,7 @@
 
 	/* Sessão dos serviços */
 		.second-sc {
-			background-color: #F8F7F5;
+			background-color: #FFFFFF;
 			height: 1298px;
 		}
 
@@ -113,7 +113,7 @@
 	/* Sessão de Transição */
 		.third-sc {
 			height: 613px;
-			background-color: #F8F7F5;
+			background-color: #FFFFFF;
 		}
 
 		.agen {
@@ -178,5 +178,40 @@
 			letter-spacing: 2px;
 			text-transform: uppercase;
 			font-weight: 600;
+		}
+
+	/* Sessão de portifólio */
+		.bg-port {
+			width: 100%;
+			height: 450px;
+			background-color: #F8F7F5;
+		}
+
+		.insta {
+			width: 290px;
+			height: 60px;
+			border: 1px solid #0C0906;
+			margin-top: 43px;
+			text-align: center;
+			color: #0C0906;
+		}
+
+		.insta h3 {
+			width: 113px;
+			margin: 0 auto;
+			font-size: 16px;
+			font-family: 'Josefin Slab', serif;
+			line-height: 21px;
+			margin-top: 8px;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+
+		.box-port {
+			width: 290px;
+			height: 290px;
+			margin-top: 20px;
+			/* bg temporario */
+			background-color: grey;
 		}
 }
