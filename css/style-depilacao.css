@@ -1,0 +1,140 @@
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and ( max-width: 670px ){
+	/* Introdução */
+		.intro {
+			width: 100%;
+			height: 278px;
+			background: url("../img/depilacao/intro-bg-depilacao.jpg") no-repeat;
+			background-position: center;
+		}
+
+		.intro .mask {
+			width: 100%;
+			height: 278px;
+			background-color: rgba(0,0,0,0.5);
+			color: #F8F7F5;
+			font-family: 'Josefin Slab', serif;
+			text-transform: uppercase;
+			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		}
+
+		.text-intro {
+			width: 100%;
+			height: 278px;
+			position: absolute;
+			text-align: center;
+		}
+
+		.mask h1 {		
+			font-weight: 600;					
+			font-size: 26px;
+			margin-top: 120px;			
+		}	
+
+		.mask p {
+			margin-top: 20px;
+			letter-spacing: 1px;
+		}
+
+		.mask p a {
+			font-size: 12px;
+			font-weight: 600;
+			color: #F8F7F5;			
+		}
+	/* Procedimentos */
+		.procedures {
+			width: 100%;
+			height: 620px;
+			background-color: #FFFFFF;
+		}
+
+		.procedures ul {
+			margin-left: 35px;
+			font-family: 'Josefin Slab', serif;
+			font-size: 18px;
+			font-weight: 400;
+			margin-top: 50px;
+		}
+
+		.procedures ul h2 {
+			font-size: 24px;
+			font-weight: 700; 
+		}
+
+		.procedures ul li {
+			margin-top: 20px;
+		}
+	/* Serviços */
+		.services {
+			width: 100%;
+			height: 730px;
+			background: url("../img/header-pages/bg-mb-services.jpg") no-repeat;
+			background-position: center left -250px;
+		}
+
+		.svc {
+			width: 190px;
+			height: 190px;
+			margin-top: 30px;
+			border-radius: 100px;
+			overflow: hidden;
+			margin-left: 62px;
+			font-family: 'Josefin Slab', serif;
+			font-size: 18px;
+			text-transform: uppercase;
+			overflow: hidden;
+			text-decoration: none;
+			color: #000000;
+		}
+
+		.align {
+			position: absolute;
+			width: 90%;
+		}
+
+		.box-svc {
+			margin-top: 71.25px;
+			width: 190px;
+			height: 47.5px;
+			background-color: rgba(248, 247, 245, 0.8);
+			border-radius: 3px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.box-svc h3 {
+			font-weight: 700;
+		}
+
+		#svc-cabelo {
+			margin-top: 50px;
+			background: url("../img/header-pages/svc-cabelo.png") center;
+		}
+
+		#svc-unha {
+			background: url("../img/header-pages/svc-unha.png") center;
+		}
+
+		#svc-maquiagem {
+			background: url("../img/header-pages/svc-make.jpg") center;
+		}
+	/* Sessão de Transição */
+		.transition {
+			width: 100%;
+			height: 63px;
+			background-color: #FFFFFF;
+		}
+
+		.horizontal-bar {
+			width: 140px;
+			height: 3px;
+			background-color: #D1AB67;
+			margin-top: 30px;
+			margin-left: 80px;
+		}
+}

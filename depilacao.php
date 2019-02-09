@@ -2,14 +2,14 @@
 	include 'header-pages.php';
 ?> 
 
-<link rel="stylesheet" href="css/style-unha.css">
+<link rel="stylesheet" href="css/style-depilacao.css">
 
-<!-- Introdução -->	
+<!--Introdução -->
 	<section class="intro">
 		<div class="mask">
 			<div class="text-intro">
-				<h1>Unhas</h1>
-				<p><a href="index.php">Início/</a><a href="index.php #unha">Serviços/</a><a href="unha.php">Unhas</a></p>
+				<h1>Depilação</h1>
+				<p><a href="index.php">Início/</a><a href="index.php #depilacao">Serviços/</a><a href="depilacao.php">Unhas</a></p>
 			</div>
 		</div>
 	</section>
@@ -17,19 +17,21 @@
 	<section class="procedures">
 		<div class="container">
 			<ul>
-				<h2>Manicure</h2>
+				<h2>Depilação</h2>
 				
-				<li>Unhas de gel</li>
-				<li>Unhas de acrigel</li>
-				<li>Unhas de fibra de vidro</li>
-				<li>Unhas de porcelana</li>
-				<li>Unhas postiças</li>
-				<li>Banho de gel</li>
-			</ul>
-			<ul>
-				<h2>Pedicure</h2>
-				
-				<li>Spa dos pés</li>
+				<li>Design de sobrancelha</li>
+				<li>Sobrancelha na linha</li>
+				<li>Sobrancelha com henna</li>
+				<li>Buço na cera</li>
+				<li>Buço na linha</li>
+				<li>Depilação facial</li>
+				<li>Axila</li>
+				<li>Meia perna</li>
+				<li>Perna inteira</li>
+				<li>Coxa</li>
+				<li>Braço</li>
+				<li>Ignal comum ( cantos )</li>
+				<li>Ignal profunda</li>
 			</ul>
 		</div>
 	</section>
@@ -42,9 +44,9 @@
 				</div>
 			</div></a>
 
-			<a href="depilacao.php"><div class="svc" id="svc-depilacao">
+			<a href="unha.php"><div class="svc" id="svc-unha">
 				<div class="box-svc">
-					<h3>Depilação</h3>
+					<h3>Unhas</h3>
 				</div>
 			</div></a>
 
@@ -61,7 +63,7 @@
 			<div class="horizontal-bar"></div>
 		</div>
 	</section>
-	
+
 <?php
 	include 'footer.php';
 ?> 
