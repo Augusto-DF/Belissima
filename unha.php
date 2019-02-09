@@ -2,32 +2,34 @@
 	include 'header-pages.php';
 ?> 
 
-<link rel="stylesheet" href="css/style-cabelo.css">
+<link rel="stylesheet" href="css/style-unha.css">
 
-<!-- Introdução -->
+<!-- Introdução -->	
 	<section class="intro">
-		<h1>Cabelo</h1>
-		<p><a href="index.php">Início/</a><a href="index.php #unha">Serviços/</a><a href="cabelo.php">Cabelo</a></p>
+		<div class="mask">
+			<div class="text-intro">
+				<h1>Unhas</h1>
+				<p><a href="index.php">Início/</a><a href="index.php #unha">Serviços/</a><a href="unha.php">Unhas</a></p>
+			</div>
+		</div>
 	</section>
-
 <!-- Procedimentos -->
 	<section class="procedures">
 		<div class="container">
 			<ul>
-				<h2>Cuidados</h2>
-				<li>Corte</li>
-				<li>Escova</li>
-				<li>Hidratação/Tratamentos</li>
-				<li>Lavagens eslieciais</li>
-				<li>Botox capilar</li>
-				<li>lirogressiva sem formol</li>
-				<li>lienteado</li>
+				<h2>Manicure</h2>
+				
+				<li>Unhas de gel</li>
+				<li>Unhas de acrigel</li>
+				<li>Unhas de fibra de vidro</li>
+				<li>Unhas de porcelana</li>
+				<li>Unhas postiças</li>
+				<li>Banho de gel</li>
 			</ul>
 			<ul>
-				<h2>Coloração</h2>
-				<li>Mechas</li>
-				<li>Coloração</li>
-				<li>Matização</li>
+				<h2>Pedicure</h2>
+				
+				<li>Spa dos pés</li>
 			</ul>
 		</div>
 	</section>
@@ -35,16 +37,18 @@
 <!-- Serviços -->
 	<section class="services">
 		<div class="container">
-			<a href="unha.php"><div class="svc" id="svc-unhas">
+			<a href="cabelo.php"><div class="svc" id="svc-cabelo">
 				<div class="box-svc">
-					<h3>Unhas</h3>
+					<h3>Cabelo</h3>
 				</div>
 			</div></a>
+
 			<a href="depilacao.php"><div class="svc" id="svc-depilacao">
 				<div class="box-svc">
 					<h3>Depilação</h3>
 				</div>
 			</div></a>
+
 			<a href="maquiagem.php"><div class="svc" id="svc-maquiagem">
 				<div class="box-svc">
 					<h3>Maquiagem</h3>
@@ -59,7 +63,6 @@
 			<div class="horizontal-bar"></div>
 		</div>
 	</section>
-
 <?php
 	include 'footer.php';
 ?> 
