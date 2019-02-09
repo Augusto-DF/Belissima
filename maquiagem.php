@@ -2,14 +2,14 @@
 	include 'header-pages.php';
 ?> 
 
-<link rel="stylesheet" href="css/style-depilacao.css">
+<link rel="stylesheet" href="css/style-maquiagem.css">
 
-<!--Introdução -->
+<!-- Introdução -->
 	<section class="intro">
 		<div class="mask">
 			<div class="text-intro">
-				<h1>Depilação</h1>
-				<p><a href="index.php">Início/</a><a href="index.php #depilacao">Serviços/</a><a href="depilacao.php">Depilação</a></p>
+				<h1>Maquiagem</h1>
+				<p><a href="index.php">Início/</a><a href="index.php #depilacao">Serviços/</a><a href="depilacao.php">Maquiagem</a></p>
 			</div>
 		</div>
 	</section>
@@ -17,21 +17,11 @@
 	<section class="procedures">
 		<div class="container">
 			<ul>
-				<h2>Depilação</h2>
+				<h2>Maquiagem</h2>
 				
-				<li>Design de sobrancelha</li>
-				<li>Sobrancelha na linha</li>
-				<li>Sobrancelha com henna</li>
-				<li>Buço na cera</li>
-				<li>Buço na linha</li>
-				<li>Depilação facial</li>
-				<li>Axila</li>
-				<li>Meia perna</li>
-				<li>Perna inteira</li>
-				<li>Coxa</li>
-				<li>Braço</li>
-				<li>Ignal comum ( cantos )</li>
-				<li>Ignal profunda</li>
+				<li>Sem cílios</li>
+				<li>Com cílios</li>
+				<li>Básica</li>
 			</ul>
 		</div>
 	</section>
@@ -50,9 +40,9 @@
 				</div>
 			</div></a>
 
-			<a href="maquiagem.php"><div class="svc" id="svc-maquiagem">
+			<a href="depilacao.php"><div class="svc" id="svc-depilacao">
 				<div class="box-svc">
-					<h3>Maquiagem</h3>
+					<h3>Depilação</h3>
 				</div>
 			</div></a>
 		</div>
@@ -63,7 +53,6 @@
 			<div class="horizontal-bar"></div>
 		</div>
 	</section>
-
 <?php
 	include 'footer.php';
 ?> 
