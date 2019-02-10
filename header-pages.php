@@ -16,11 +16,18 @@
 
 
 <body>
-	<header class="menu">
 		<div class="menu-sandwich">
-			<a href=""><img src="img/header-pages/menu-pages.png"></a>
+			<a href="" id="menu-sandwich"><img src="img/header-pages/menu-pages.png" ></a>
 		</div>
+	<header class="menu">
 		<div class="container">
+			<div class="header-menu">
+				<ul>
+					<li><a href="index.php">Início</a></li>
+					<li><a href="">Contato</a></li>
+					<li><a href="index.php #unha">Serviços</a></li>			
+				</ul>
+			</div>
 			<div class="logo">
 				<a href=""><img src="img/header-pages/logo-pages.png"></a>
 			</div>

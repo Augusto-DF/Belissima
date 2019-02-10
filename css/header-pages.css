@@ -9,10 +9,12 @@
 		}
 
 		.menu-sandwich {
+			width: 30px;
+			height: 28px;
 			position: absolute;
 			right: 30px;
 			top: 30px;
-			z-index: 21;
+			z-index: 40;
 		}
 
 		.menu .menu-sandwich, .menu .logo {
@@ -24,8 +26,12 @@
 			max-width: 132px;
 		}
 
+		.header-menu {
+			display: none;
+		}
 
-		/* Contatos */
+
+	/* Contatos */
 		.fifth-sc {
 			width: 100%;
 			height: 496px;
@@ -140,4 +146,54 @@
 			/* bg temporario */
 			background-color: grey;
 		}
+
+	/* Efeitos */
+
+		/* Efeito menu */	
+			.menu-sw-active {				
+				position: fixed;								
+			}
+
+			.menu-active {
+				position: fixed;
+				width: 100%;
+				height: 100vh;
+				background-color: #F8F7F5;
+				z-index: 30;
+				top: 0;
+				left: 0;
+			}
+
+			.menu-active .header-menu {
+				width: 100%;
+				height: 100vh;
+				position: absolute;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.header-menu  ul{
+				width: 100%;
+				text-align: center;
+				font-family: 'Josefin Slab', serif;
+				font-size: 20px;
+				letter-spacing: 2px;
+				text-transform: uppercase;				
+			}
+
+			.header-menu li {
+				margin-bottom: 50px;
+			}
+
+			.header-menu li:first-child {
+				margin-top: 0px;
+			}
+
+			.header-menu li a {
+				color: #000000;
+				font-weight: 700;
+			}
+
+			
 }

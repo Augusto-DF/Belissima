@@ -42,7 +42,7 @@
 				</div>
 			</a>
 			<!-- Ancora make -->
-			<a href="make.php">
+			<a href="maquiagem.php">
 				<div class="box-service" id="make">
 					<div class="svc-name">
 						<h3>Maquiagem</h3>
