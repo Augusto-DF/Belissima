@@ -61,5 +61,6 @@
 	</section>
 
 <?php
+	include 'regular-pages.php'; 
 	include 'footer.php';
 ?> 

@@ -24,7 +24,7 @@
 			<div class="header-menu">
 				<ul>
 					<li><a href="index.php">Início</a></li>
-					<li><a href="">Contato</a></li>
+					<li><a href="contato.php">Contato</a></li>
 					<li><a href="index.php #unha">Serviços</a></li>			
 				</ul>
 			</div>
