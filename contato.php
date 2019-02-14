@@ -18,15 +18,19 @@
 		<div class="container">
 			<form action="enviar.php" method="post" name="form" class="formphp">
 				<label for="nome">Nome</label>
-				<input type="text" name="nome" wrap="hard" class="text-box">
+				<input type="text" name="nome" wrap="hard" class="text-box" id="campo" required>
 				<label for="email">E-mail</label>
-				<input type="text" name="email" wrap="hard" class="text-box">
+				<input type="text" name="email" wrap="hard" class="text-box" id="campo" required>
 				<label for="telefone">Telefone</label>
-				<input type="text" name="telefone" wrap="hard" class="text-box">
+				<input type="text" name="telefone" wrap="hard" class="text-box" required>
 				<label for="mensagem">Mensagem</label>
-				<textarea name="mensagem" wrap="hard" class="text-box t-area"></textarea>
+				<textarea name="mensagem" wrap="hard" class="text-box t-area" required></textarea>
+				<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+				<input type="text" class="nao-aparece" name="leaveblank">
+				<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+				<input type="text" class="nao-aparece" name="dontchange" value="http://" >
 
-				<button name="enviar" type="submit">Enviar</button>
+				<button name="enviar" type="submit" id="form-submit">Enviar</button>
 			</form>
 		</div>
 	</section>

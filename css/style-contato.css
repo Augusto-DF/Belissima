@@ -3,6 +3,11 @@ h1,h2,h3,h4,h5,h6,p {
 	padding: 0;
 }
 
+/* Validação de formulário*/
+.formphp label.nao-aparece, .formphp input.nao-aparece {
+	display: none !important;
+}
+
 @media only screen and ( max-width: 670px ) {
 	/* Introdução */
 		.intro {
@@ -128,4 +133,12 @@ h1,h2,h3,h4,h5,h6,p {
 			margin-top: 18px;
 			line-height: 130%;
 		}
+
+	/* Efeitos */
+		.form-send {
+			height: 200px;
+			background-color: #FFFFFF; 
+		}
 }
+
+/*required*/

@@ -27,4 +27,8 @@ $(document).ready(function(){
 			/*$('.menu').addClass('menu-out');*/
 		});
 	});
+
+	$('#form-submit').click(function(){
+		$('.bg-form').addClass('form-send');
+	});		
 });

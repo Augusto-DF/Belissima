@@ -6,7 +6,7 @@ $email_envio = 'dfc.mail@dragonflycorp.com.br'; // E-mail receptor
 $email_pass = 'teste'; // Senha do e-mail
 
 $site_name = 'Teste Formulario'; // Nome do Site
-$site_url = 'https://dragonflycorp.com.br/teste/teste-form/formulario.html'; // URL do Site
+$site_url = 'https://dragonflycorp.com.br/teste-belissima/Belissima/contato.php'; // URL do Site
 
 $host_smtp = 'dragonflycorp.com.br'; // HOST SMTP Ex: smtp.domain.com.br
 $host_port = '587'; // Porta do Host
@@ -14,6 +14,7 @@ $host_port = '587'; // Porta do Host
 //		587 porta https 
 
 // Variáveis do Formulário
+	/* $nome desse arquivo está recebendo nome do formulário */
 
 $nome = $_POST['nome'];
 $email = $_POST['email'];
