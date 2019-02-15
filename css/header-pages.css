@@ -17,6 +17,16 @@
 			z-index: 40;
 		}
 
+		/* Menu preto */
+		.bar-1, .bar-2, .bar-3 {
+			width: 30px;
+			height: 4px;
+			margin-bottom: 8px;
+			background-color: #000000;
+			/*border-radius: 3px;*/
+			transition: 0.4s;
+		}
+
 		.menu .menu-sandwich, .menu .logo {
 			display: inline-block;
 		}
@@ -151,8 +161,27 @@
 
 		/* Efeito menu */	
 			.menu-sw-active {				
-				position: fixed;								
+				position: fixed;
+				z-index: 31;								
 			}
+
+			.change {
+				position: fixed;
+			}
+			/* Menu preto */
+				.change .bar-1 {
+	  				-webkit-transform: translate(0px, 12px) rotate(-45deg);
+	  				transform: translate(0px, 12px) rotate(-45deg) ;
+				}
+
+				.change .bar-2 {
+					opacity: 0;				
+				}
+
+				.change .bar-3 {
+	  				-webkit-transform: translate(0px, -12px) rotate(45deg);
+	  				transform: translate(0px, -12px) rotate(45deg);
+	  			}
 
 			.menu-active {
 				position: fixed;

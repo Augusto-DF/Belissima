@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#D1AB67">
 	<title>Belíssima Esmalteria</title>
 </head>
 <style>
@@ -16,13 +17,27 @@
 
 
 <body>
+
+	<a href="" id="menu-sandwich"><div class="menu-sandwich">
+		<div class="bar-1"></div>
+		<div class="bar-2"></div>
+		<div class="bar-3"></div>
+	</div></a>
 	<header class="menu">
-		<div class="menu-sandwich" id="menu-sandwich">
-			<a href=""><img src="img/header/menu-sandwich.png"></a>
-		</div>
 		<div class="container">
+			<div class="header-menu">
+				<ul>
+					<li><a href="index.php">Início</a></li>
+					<li><a href="contato.php">Contato</a></li>
+					<li><a href="index.php #unha">Serviços</a></li>			
+				</ul>
+			</div>
 			<div class="logo">
 				<a href=""><img src="img/header/logo.png"></a>
 			</div>
 		</div>		
 	</header>
+
+
+
+	

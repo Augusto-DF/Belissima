@@ -1,17 +1,34 @@
 @media only screen and (max-width: 670px) {
 	/* Header */
 		.menu {
-			position: absolute;
+			height: 98px;
 			width: 100%;
 			top: 0px;
 			z-index: 20;
+			position: absolute;
+		}
+
+		.header-menu {
+			display: none;
 		}
 
 		.menu-sandwich {
-			float: right;
-			margin-right: 30px;
-			margin-top: 30px;
-			z-index: 21;	
+			width: 30px;
+			height: 32px;
+			position: absolute;
+			right: 30px;
+			top: 30px;
+			z-index: 40;
+		}
+
+		/* Menu branco */
+		.bar-1, .bar-2, .bar-3 {
+			width: 30px;
+			height: 4px;
+			margin-bottom: 8px;
+			background-color: #FFFFFF;
+			/*border-radius: 3px;*/
+			transition: 0.4s;
 		}
 
 		.menu .menu-sandwich, .menu .logo {
@@ -25,7 +42,7 @@
 
 	/* Introdução */
 		.intro-bg {
-			height: 100vh;
+			height: 640px;
 			overflow: hidden;
 			background: url("../img/home/intro-bg.jpg");
 			background-position: left 57% top 10%;
@@ -34,7 +51,7 @@
 
 		.filter {
 			width: 100%;
-			height: 100vh;
+			height: 640px;
 			background-color: rgba(0, 0, 0, 0.3);
 		}
 
@@ -299,4 +316,79 @@
 		.cpr img {
 			margin-top: 15px;
 		}
+
+	/* Efeitos */
+
+		/* Efeito menu */
+			.menu-sw-active {				
+				position: fixed;
+				z-index: 31;							
+			}
+
+			.change {
+				position: fixed;
+			}
+			/* Menu preto */
+				.change .bar-1 {
+	  				-webkit-transform: translate(0px, 12px) rotate(-45deg);
+	  				transform: translate(0px, 12px) rotate(-45deg) ;
+	  				background-color: #000000;  				
+				}
+
+				.change .bar-2 {
+					opacity: 0;
+					background-color: #000000;				
+				}
+
+				.change .bar-3 {
+	  				-webkit-transform: translate(0px, -12px) rotate(45deg);
+	  				transform: translate(0px, -12px) rotate(45deg);
+	  				background-color: #000000;  				
+	  			}
+
+			.menu-active {
+				position: fixed;
+				width: 100%;
+				height: 100vh;
+				background-color: #F8F7F5;
+				z-index: 30;
+				top: 0;
+				left: 0;
+			}
+
+			.menu-active .header-menu {
+				width: 100%;
+				height: 100vh;
+				position: absolute;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.header-menu  ul{
+				width: 100%;
+				text-align: center;
+				font-family: 'Josefin Slab', serif;
+				font-size: 20px;
+				letter-spacing: 2px;
+				text-transform: uppercase;				
+			}
+
+			.header-menu li {
+				margin-bottom: 50px;
+			}
+
+			.header-menu li:first-child {
+				margin-top: 0px;
+			}
+
+			.header-menu li a {
+				color: #000000;
+				font-weight: 700;
+			}
+
+			.menu-active .logo {
+				display: none;
+				visibility: hidden;	
+			}			
 }

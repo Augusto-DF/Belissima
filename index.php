@@ -55,7 +55,7 @@
 <!-- Sessão de transição -->
 	<div class="third-sc">
 		<div class="container">
-			<a href=""><div class="agen">
+			<a href="contato.php"><div class="agen">
 				<h3>Agende um horário</h3>
 			</div></a>
 			<img src="img/home/logo-transit.png">
