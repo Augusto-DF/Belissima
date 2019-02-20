@@ -26,7 +26,7 @@
 	}
 }
 
-@media only screen and (min-width: 671px) and (max-width: 1170px){
+@media only screen and (min-width: 671px) and (max-width: 1169px){
 	.container {
 		width: 80%;
 		min-width: 600px;

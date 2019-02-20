@@ -1,394 +1,528 @@
-@media only screen and (max-width: 670px) {
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	padding: 0;
+}
+/* Tablets e Desktops */
 	/* Header */
-		.menu {
-			height: 98px;
-			width: 100%;
-			top: 0px;
-			z-index: 20;
-			position: absolute;
-		}
-
-		.header-menu {
+		.menu-sandwich {
 			display: none;
 		}
 
-		.menu-sandwich {
-			width: 30px;
-			height: 32px;
-			position: absolute;
-			right: 30px;
-			top: 30px;
-			z-index: 40;
+		.menu {
+			height: 0px;
+			visibility: hidden;
 		}
-
-		/* Menu branco */
-		.bar-1, .bar-2, .bar-3 {
-			width: 30px;
-			height: 4px;
-			margin-bottom: 8px;
-			background-color: #FFFFFF;
-			/*border-radius: 3px;*/
-			transition: 0.4s;
-		}
-
-		.menu .menu-sandwich, .menu .logo {
-			display: inline-block;
-		}
-
-		.logo img {
-			margin-top: 30px;
-			max-width: 122px;
-		}
-
-	/* Introdução */
+	/* Intro */
 		.intro-bg {
-			height: 640px;
+			width: 100%;
+			height: 700px;
 			overflow: hidden;
-			background: url("../img/home/intro-bg.jpg");
-			background-position: left 57% top 10%;
-			z-index: 10;
+			background: url("../img/home/intro-bg-home-desktop.jpg") no-repeat;
+			background-position: left -50px top 0px;
 		}
 
 		.filter {
 			width: 100%;
-			height: 640px;
+			height: 700px;
 			background-color: rgba(0, 0, 0, 0.3);
 		}
 
 		.intro {
-			width: 245px;
-			height: 111px;
-			margin: 0 auto;
-			margin-top: 358px;
+			margin-left: 5px;
+			margin-top: 240px;
+			width: 367px;
 			color: #F8F7F5;
-			text-align: center;
 		}
 
 		.intro h1 {
-			margin: 0;
 			font-family: 'Josefin Slab', serif;
-			font-size: 36px;
-			letter-spacing: 1px;
-			font-weight: 300;
 			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 		}
 
 		.intro h2 {
 			font-family: 'Niconne', cursive;
-			font-size: 48px;
-			font-weight: 400;
 			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 		}
-
-	/* Sessão dos serviços */
+	/* Sessão de serviços */
 		.second-sc {
+			width: 100%;
+			height: 432px;
 			background-color: #FFFFFF;
-			height: 1298px;
-		}
-
-		.box-service {
-			margin: 0 auto;
-			width: 290px;
-			height: 290px;
-			display: block;
-			margin-top: 30px;
 		}
 
 		.svc-name {
-			position: absolute;
-			margin-top: 230px;
-			font-size: 16px;
-			font-family: 'Josefin Slab', serif;
-			font-weight: 600;
-			width: 290px;
-			height: 60px;
+			position: absolute;			
 			background-color: rgba(255, 255, 255, 0.9);
-			color: #000000;			
+			font-family: 'Josefin Slab', serif;				
 			text-align: center;
+			color: #000000;			
+			text-transform: uppercase;
 		}
 
 		.svc-name h3 {
-			margin-top: 24px;
-			text-transform: uppercase;
-		}
-
-		#unha {
-			margin-top: 50px;
-			background: url("../img/home/svc-unha.jpg") no-repeat center;
-		}
-
-		#cabelo {
-			background: url("../img/home/svc-cabelo.jpg") no-repeat center;
-		}
-
-		#depilacao {
-			background: url("../img/home/svc-depilacao.jpg") no-repeat center;
-		}
-
-		#make {
-			background: url("../img/home/svc-make.jpg") no-repeat center;
-		}
-
-	/* Sessão de Transição */
-		.third-sc {
-			height: 613px;
-			background-color: #FFFFFF;
-		}
-
-		.agen {
-			width: 290px;
-			height: 60px;
-			margin: 0 auto;
-			margin-top: 30px;
-			border: 1px solid #0C0906;
-			color: #0C0906;
-		}
-
-		.agen h3 {
-			margin: 0 auto;
-			text-align: center;
-			margin-top: 8px;
-			width: 113px;
-			font-size: 16px;
-			line-height: 21px;
-			font-family: 'Josefin Slab', serif;
-			font-weight: 600;
-			text-transform: uppercase;
-		}
-
-		.third-sc img {
-			position: absolute;
-			margin-top: 120px;
-			z-index: 10;
-		}
-
-		.cite {
-			width: 290px;
-			height: 212px;
-			margin: 0 auto;
-			border: 2px solid #D1AB67;
-			margin-top: 191px;
-			text-align: center;
-			font-family: 'Josefin Slab', serif;
-			text-decoration: none;
-		}
-
-		.cite h2 {
-			margin: 0 auto;
-			margin-top: 40px;
-			width: 183px;
-			font-size: 20px;
-			letter-spacing: 2px;
-			font-style: italic;
-		}
-
-		.hor-bar {
-			height: 2px;
-			width: 42px;
-			background-color: #D1AB67;
-		}
-
-		.cite .hor-bar {
-			margin: 0 auto;
-			margin-top: 20.62px;
-		}
-
-		.cite blockquote {
-			margin-top: 20.38px;
-			font-size: 14px;
-			letter-spacing: 2px;
-			text-transform: uppercase;
-			font-weight: 600;
-		}
-
-	/* Sessão de portifólio */
-		.fourth-sc {
-			width: 100%;
-			height: 450px;
-			background-color: #F8F7F5;
-		}
-
-		.insta {
-			width: 290px;
-			height: 60px;
-			margin: 0 auto;
-			border: 1px solid #0C0906;
-			margin-top: 43px;
-			text-align: center;
-			color: #0C0906;
-		}
-
-		.insta h3 {
-			width: 113px;
-			margin: 0 auto;
-			font-size: 16px;
-			font-family: 'Josefin Slab', serif;
-			line-height: 21px;
-			margin-top: 8px;
-			font-weight: 600;
-			text-transform: uppercase;
-		}
-
-		.box-port {
-			width: 290px;
-			height: 290px;
-			margin: 0 auto;
-			margin-top: 20px;
-			/* bg temporario */
-			background-color: grey;
-		}
-
-	/* Contatos */
-		.fifth-sc {
-			width: 100%;
-			height: 496px;
-			background: url("../img/home/contacts-bg.jpg");
-			background-position: left -50px top -50px;
-			overflow: hidden;
-		}
-
-		.contacts {
-			position: absolute;
-			width: 290px;
-			height: 436px;
-			margin: 0px 5px;
-			background-color: #F8F7F5;
-			font-size: 18px;
-			color: #D1AB67;
-			font-family: 'Josefin Slab', serif;
-			text-align: center;
-		}
-
-		.contacts h2 {
-			margin-top: 40px;
-			margin-bottom: 40px;
-			font-size: 40px;
-			font-family: 'Niconne', cursive;
-			letter-spacing: 2px;
-		}
-
-		.contacts h3 {
-			text-transform: uppercase;
-			margin-top: 40px;
-			margin-bottom: 10px;
-			font-weight: 600;
-		}
-
-		.contacts h4 {
-			text-transform: capitalize;
-			font-weight: 600;
-			width: 221px;
-			margin: 0 auto;
-		}
-
-	/* Footer */
-		.footer {
-			width: 100%;
-			height: 306px;
-			background-color: #F8F7F5;
-		}
-
-		.f-menu {
-			position: absolute;
-			width: 190px;
-			margin: 0px 55px;
-			margin-top: 12px;			
-		}
-
-		.f-menu li {
-			margin-top: 28px;
-			font-family: 'Josefin Slab', serif;
-			font-size: 14px;
-			text-align: center;
-			text-transform: uppercase;
-			color: #000000;
 			font-weight: 700;
 		}
-
-		.cpr {
-			margin-top: 169px;
-			font-family: 'Josefin Slab', serif;
-			font-size: 18px;
-			text-align: center;
-			line-height: 22px;
-		}
-
-		.cpr img {
-			margin-top: 15px;
-		}
-
-	/* Efeitos */
-
-		/* Efeito menu */
-			.menu-sw-active {				
-				position: fixed;
-				z-index: 31;							
-			}
-
-			.change {
-				position: fixed;
-			}
-			/* Menu preto */
-				.change .bar-1 {
-	  				-webkit-transform: translate(0px, 12px) rotate(-45deg);
-	  				transform: translate(0px, 12px) rotate(-45deg) ;
-	  				background-color: #000000;  				
-				}
-
-				.change .bar-2 {
-					opacity: 0;
-					background-color: #000000;				
-				}
-
-				.change .bar-3 {
-	  				-webkit-transform: translate(0px, -12px) rotate(45deg);
-	  				transform: translate(0px, -12px) rotate(45deg);
-	  				background-color: #000000;  				
-	  			}
-
-			.menu-active {
-				position: fixed;
+/* Phony Only */
+	@media only screen and (max-width: 670px) {
+		/* Header */
+			.menu {
+				height: 98px;
 				width: 100%;
-				height: 100vh;
-				background-color: #F8F7F5;
-				z-index: 30;
-				top: 0;
-				left: 0;
-			}
-
-			.menu-active .header-menu {
-				width: 100%;
-				height: 100vh;
+				top: 0px;
+				z-index: 20;
 				position: absolute;
-				display: flex;
-				justify-content: center;
-				align-items: center;
 			}
 
-			.header-menu  ul{
-				width: 100%;
+			.header-menu {
+				display: none;
+			}
+
+			.menu-sandwich {
+				width: 30px;
+				height: 32px;
+				position: absolute;
+				right: 30px;
+				top: 30px;
+				z-index: 40;
+			}
+
+			/* Menu branco */
+			.bar-1, .bar-2, .bar-3 {
+				width: 30px;
+				height: 4px;
+				margin-bottom: 8px;
+				background-color: #FFFFFF;
+				/*border-radius: 3px;*/
+				transition: 0.4s;
+			}
+
+			.menu-sandwich, .menu .logo {
+				display: inline-block;
+			}
+
+			.logo img {
+				margin-top: 30px;
+				max-width: 122px;
+			}
+		/* Introdução */
+			.intro-bg {
+				height: 640px;
+				overflow: hidden;
+				background: url("../img/home/intro-bg.jpg");
+				background-position: left 57% top 10%;
+				z-index: 10;
+			}
+
+			.filter {		
+				width: 100%;		
+				height: 640px;
+				background-color: rgba(0, 0, 0, 0.3);
+			}
+
+			.intro {
+				width: 245px;
+				height: 111px;
+				margin: 0 auto;
+				margin-top: 358px;
+				color: #F8F7F5;
+				text-align: center;
+			}
+
+			.intro h1 {
+				margin: 0;
+				font-family: 'Josefin Slab', serif;
+				font-size: 36px;
+				letter-spacing: 1px;
+				font-weight: 300;
+				text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+			}
+
+			.intro h2 {
+				font-family: 'Niconne', cursive;
+				font-size: 48px;
+				font-weight: 400;
+				text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+			}
+		/* Sessão dos serviços */
+			.second-sc {
+				background-color: #FFFFFF;
+				height: 1298px;
+			}
+
+			.box-service {
+				margin: 0 auto;
+				width: 290px;
+				height: 290px;
+				display: block;
+				margin-top: 30px;
+			}
+
+			.svc-name {
+				position: absolute;
+				margin-top: 230px;
+				font-size: 16px;
+				font-family: 'Josefin Slab', serif;
+				font-weight: 600;
+				width: 290px;
+				height: 60px;
+				background-color: rgba(255, 255, 255, 0.9);
+				color: #000000;			
+				text-align: center;
+			}
+
+			.svc-name h3 {
+				margin-top: 24px;
+				text-transform: uppercase;
+			}
+
+			#unha {
+				margin-top: 50px;
+				background: url("../img/home/svc-unha.jpg") no-repeat center;
+			}
+
+			#cabelo {
+				background: url("../img/home/svc-cabelo.jpg") no-repeat center;
+			}
+
+			#depilacao {
+				background: url("../img/home/svc-depilacao.jpg") no-repeat center;
+			}
+
+			#make {
+				background: url("../img/home/svc-make.jpg") no-repeat center;
+			}
+
+		/* Sessão de Transição */
+			.third-sc {
+				height: 613px;
+				background-color: #FFFFFF;
+			}
+
+			.agen {
+				width: 290px;
+				height: 60px;
+				margin: 0 auto;
+				margin-top: 30px;
+				border: 1px solid #0C0906;
+				color: #0C0906;
+			}
+
+			.agen h3 {
+				margin: 0 auto;
+				text-align: center;
+				margin-top: 8px;
+				width: 113px;
+				font-size: 16px;
+				line-height: 21px;
+				font-family: 'Josefin Slab', serif;
+				font-weight: 600;
+				text-transform: uppercase;
+			}
+
+			.third-sc img {
+				position: absolute;
+				margin-top: 120px;
+				z-index: 10;
+			}
+
+			.cite {
+				width: 290px;
+				height: 212px;
+				margin: 0 auto;
+				border: 2px solid #D1AB67;
+				margin-top: 191px;
 				text-align: center;
 				font-family: 'Josefin Slab', serif;
+				text-decoration: none;
+			}
+
+			.cite h2 {
+				margin: 0 auto;
+				margin-top: 40px;
+				width: 183px;
 				font-size: 20px;
 				letter-spacing: 2px;
-				text-transform: uppercase;				
+				font-style: italic;
 			}
 
-			.header-menu li {
-				margin-bottom: 50px;
+			.hor-bar {
+				height: 2px;
+				width: 42px;
+				background-color: #D1AB67;
 			}
 
-			.header-menu li:first-child {
-				margin-top: 0px;
+			.cite .hor-bar {
+				margin: 0 auto;
+				margin-top: 20.62px;
 			}
 
-			.header-menu li a {
+			.cite blockquote {
+				margin-top: 20.38px;
+				font-size: 14px;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				font-weight: 600;
+			}
+
+		/* Sessão de portifólio */
+			.fourth-sc {
+				width: 100%;
+				height: 450px;
+				background-color: #F8F7F5;
+			}
+
+			.insta {
+				width: 290px;
+				height: 60px;
+				margin: 0 auto;
+				border: 1px solid #0C0906;
+				margin-top: 43px;
+				text-align: center;
+				color: #0C0906;
+			}
+
+			.insta h3 {
+				width: 113px;
+				margin: 0 auto;
+				font-size: 16px;
+				font-family: 'Josefin Slab', serif;
+				line-height: 21px;
+				margin-top: 8px;
+				font-weight: 600;
+				text-transform: uppercase;
+			}
+
+			.box-port {
+				width: 290px;
+				height: 290px;
+				margin: 0 auto;
+				margin-top: 20px;
+				/* bg temporario */
+				background-color: grey;
+			}
+
+		/* Contatos */
+			.fifth-sc {
+				width: 100%;
+				height: 496px;
+				background: url("../img/home/contacts-bg.jpg");
+				background-position: left -50px top -50px;
+				overflow: hidden;
+			}
+
+			.contacts {
+				position: absolute;
+				width: 290px;
+				height: 436px;
+				margin: 0px 5px;
+				background-color: #F8F7F5;
+				font-size: 18px;
+				color: #D1AB67;
+				font-family: 'Josefin Slab', serif;
+				text-align: center;
+			}
+
+			.contacts h2 {
+				margin-top: 40px;
+				margin-bottom: 40px;
+				font-size: 40px;
+				font-family: 'Niconne', cursive;
+				letter-spacing: 2px;
+			}
+
+			.contacts h3 {
+				text-transform: uppercase;
+				margin-top: 40px;
+				margin-bottom: 10px;
+				font-weight: 600;
+			}
+
+			.contacts h4 {
+				text-transform: capitalize;
+				font-weight: 600;
+				width: 221px;
+				margin: 0 auto;
+			}
+
+		/* Footer */
+			.footer {
+				width: 100%;
+				height: 306px;
+				background-color: #F8F7F5;
+			}
+
+			.f-menu {
+				position: absolute;
+				width: 190px;
+				margin: 0px 55px;
+				margin-top: 12px;			
+			}
+
+			.f-menu li {
+				margin-top: 28px;
+				font-family: 'Josefin Slab', serif;
+				font-size: 14px;
+				text-align: center;
+				text-transform: uppercase;
 				color: #000000;
 				font-weight: 700;
 			}
 
-			.menu-active .logo {
-				display: none;
-				visibility: hidden;	
-			}			
-}
+			.cpr {
+				margin-top: 169px;
+				font-family: 'Josefin Slab', serif;
+				font-size: 18px;
+				text-align: center;
+				line-height: 22px;
+			}
+
+			.cpr img {
+				margin-top: 15px;
+			}
+
+		/* Efeitos */
+
+			/* Efeito menu */
+				.menu-sw-active {				
+					position: fixed;
+					z-index: 31;							
+				}
+
+				.change {
+					position: fixed;
+				}
+				/* Menu preto */
+					.change .bar-1 {
+		  				-webkit-transform: translate(0px, 12px) rotate(-45deg);
+		  				transform: translate(0px, 12px) rotate(-45deg) ;
+		  				background-color: #000000;  				
+					}
+
+					.change .bar-2 {
+						opacity: 0;
+						background-color: #000000;				
+					}
+
+					.change .bar-3 {
+		  				-webkit-transform: translate(0px, -12px) rotate(45deg);
+		  				transform: translate(0px, -12px) rotate(45deg);
+		  				background-color: #000000;  				
+		  			}
+
+				.menu-active {
+					position: fixed;
+					width: 100%;
+					height: 100vh;
+					background-color: #F8F7F5;
+					z-index: 30;
+					top: 0;
+					left: 0;
+				}
+
+				.menu-active .header-menu {
+					width: 100%;
+					height: 100vh;
+					position: absolute;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+
+				.header-menu  ul{
+					width: 100%;
+					text-align: center;
+					font-family: 'Josefin Slab', serif;
+					font-size: 20px;
+					letter-spacing: 2px;
+					text-transform: uppercase;				
+				}
+
+				.header-menu li {
+					margin-bottom: 50px;
+				}
+
+				.header-menu li:first-child {
+					margin-top: 0px;
+				}
+
+				.header-menu li a {
+					color: #000000;
+					font-weight: 700;
+				}
+
+				.menu-active .logo {
+					display: none;
+					visibility: hidden;	
+				}			
+	}
+/* Tablets */
+	@media only screen and (min-width: 671px) and (max-width: 1169px) {
+
+	}
+/* Desktops */
+	@media only screen and (min-width: 1170px) {
+		/* Header */
+		/* Intro */
+			.intro h1 {
+				font-size: 54px;
+			}
+
+			.intro h2 {
+				font-size: 90px;
+			}
+		/* Sessão de Serviços */
+			.box-service {
+				display: inline-block;
+				width: 228px;
+				height: 151px;
+				background-color: grey;
+				margin-top: 281px;
+				margin-left: 6px;
+			}
+
+			.svc-name {
+				--width-svc-name: 228px;
+
+				width: var(--width-svc-name);
+				height: 40px;
+				letter-spacing: 2px;
+				margin-top: 111px;
+			}
+
+			.svc-name h3 {
+				margin-top: 11px;
+			}
+
+			#unha {
+				--larguraUnha: 704px;
+
+				position: absolute;
+				display: block;
+				margin-left: 233px;
+				margin-top: 80px;
+				width: var(--larguraUnha);
+				height: 191px;
+				background-color: grey;
+				/*background: url("../img/home/svc-unha.jpg") no-repeat center;*/
+			}
+
+			#unha .svc-name {
+				width: var(--larguraUnha);
+				height: 40px;
+				letter-spacing: 2px;
+				margin-top: 151px;
+			}
+
+			#cabelo {
+				margin-left: 233px; 
+				/*background: url("../img/home/svc-cabelo.jpg") no-repeat center;*/
+			}
+
+			#depilacao {
+				/*background: url("../img/home/svc-depilacao.jpg") no-repeat center;*/
+			}
+
+			#make {
+				/*background: url("../img/home/svc-make.jpg") no-repeat center;*/
+			}
+	}
