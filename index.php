@@ -55,15 +55,18 @@
 <!-- Sessão de transição -->
 	<div class="third-sc">
 		<div class="container">
-			<a href="contato.php"><div class="agen">
+			<a href="contato.php"><div class="btn">
 				<h3>Agende um horário</h3>
 			</div></a>
-			<img src="img/home/logo-transit.png">
+			<img src="img/home/logo-transit.png" class="logo-transit">
 			<div class="cite">
-				<h2>"A beleza começa no momento em que você decide ser você mesma"</h2>
+				<h2>"A beleza começa no momento em que você decide ser você mesma."</h2>
 				<div class="hor-bar"></div>
 				<blockquote>Coco Chanel</blockquote>
-			</div>			
+			</div>	
+			<div class="img-transit">
+				<img src="img/home/photo-transit.jpg">
+			</div>		
 		</div>
 	</div>	
 

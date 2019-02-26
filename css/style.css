@@ -88,6 +88,11 @@ h1,h2,h3,h4,h5,h6,p {
 		.svc-name h3 {
 			font-weight: 700;
 		}
+	/* Sessão de transição */
+		.third-sc {
+			height: 831px;
+			background-color: #FFFFFF;
+		}
 /* Phony Only */
 	@media only screen and (max-width: 670px) {
 		/* Header */
@@ -217,7 +222,6 @@ h1,h2,h3,h4,h5,h6,p {
 			#make {
 				background: url("../img/home/svc-make.jpg") no-repeat center;
 			}
-
 		/* Sessão de Transição */
 			.third-sc {
 				height: 613px;
@@ -246,6 +250,8 @@ h1,h2,h3,h4,h5,h6,p {
 			}
 
 			.third-sc img {
+				width: 298.23px;
+				height: 84.84px;
 				position: absolute;
 				margin-top: 120px;
 				z-index: 10;
@@ -290,6 +296,9 @@ h1,h2,h3,h4,h5,h6,p {
 				font-weight: 600;
 			}
 
+			.img-transit {
+				display: none;
+			}
 		/* Sessão de portifólio */
 			.fourth-sc {
 				width: 100%;
@@ -297,7 +306,7 @@ h1,h2,h3,h4,h5,h6,p {
 				background-color: #F8F7F5;
 			}
 
-			.insta {
+			.btn {
 				width: 290px;
 				height: 60px;
 				margin: 0 auto;
@@ -307,7 +316,7 @@ h1,h2,h3,h4,h5,h6,p {
 				color: #0C0906;
 			}
 
-			.insta h3 {
+			.btn h3 {
 				width: 113px;
 				margin: 0 auto;
 				font-size: 16px;
@@ -326,7 +335,6 @@ h1,h2,h3,h4,h5,h6,p {
 				/* bg temporario */
 				background-color: grey;
 			}
-
 		/* Contatos */
 			.fifth-sc {
 				width: 100%;
@@ -369,7 +377,6 @@ h1,h2,h3,h4,h5,h6,p {
 				width: 221px;
 				margin: 0 auto;
 			}
-
 		/* Footer */
 			.footer {
 				width: 100%;
@@ -402,10 +409,13 @@ h1,h2,h3,h4,h5,h6,p {
 				line-height: 22px;
 			}
 
-			.cpr img {
-				margin-top: 15px;
+			.cpr span {
+				display: block;
 			}
 
+			.cpr img {	
+				margin-top: 15px;
+			}
 		/* Efeitos */
 
 			/* Efeito menu */
@@ -454,17 +464,18 @@ h1,h2,h3,h4,h5,h6,p {
 					align-items: center;
 				}
 
-				.header-menu  ul{
+				.header-menu ul{
 					width: 100%;
 					text-align: center;
 					font-family: 'Josefin Slab', serif;
 					font-size: 20px;
 					letter-spacing: 2px;
-					text-transform: uppercase;				
+					text-transform: uppercase;		
 				}
 
 				.header-menu li {
 					margin-bottom: 50px;
+					display: block;	
 				}
 
 				.header-menu li:first-child {
@@ -507,9 +518,7 @@ h1,h2,h3,h4,h5,h6,p {
 			}
 
 			.svc-name {
-				--width-svc-name: 228px;
-
-				width: var(--width-svc-name);
+				width: 228px;
 				height: 40px;
 				letter-spacing: 2px;
 				margin-top: 111px;
@@ -529,7 +538,7 @@ h1,h2,h3,h4,h5,h6,p {
 				width: var(--larguraUnha);
 				height: 191px;
 				background-color: grey;
-				/*background: url("../img/home/svc-unha.jpg") no-repeat center;*/
+				background: url("../img/home/svc-dkt-unha.jpg") no-repeat center;
 			}
 
 			#unha .svc-name {
@@ -541,14 +550,174 @@ h1,h2,h3,h4,h5,h6,p {
 
 			#cabelo {
 				margin-left: 233px; 
-				/*background: url("../img/home/svc-cabelo.jpg") no-repeat center;*/
+				background: url("../img/home/svc-dkt-cabelo.jpg") no-repeat center;
 			}
 
 			#depilacao {
-				/*background: url("../img/home/svc-depilacao.jpg") no-repeat center;*/
+				background: url("../img/home/svc-dkt-depilacao.jpg") no-repeat center;
 			}
 
 			#make {
-				/*background: url("../img/home/svc-make.jpg") no-repeat center;*/
+				background: url("../img/home/svc-dkt-make.jpg") no-repeat center;
+			}
+		/* Sessão de Transição */
+			.btn {
+				width: 704px;
+				height: 40px;
+				color: #000000;
+				border: 1px solid #000000;
+				margin: 0 auto;
+				font-family: 'Josefin Slab', serif;
+				font-size: 16px;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				margin-top: 30px;
+			}
+
+			.btn h3 {
+				position: absolute;
+				font-weight: 700;
+				margin-top: 13px;
+				margin-left: 247.5px;
+			}
+
+			.logo-transit {
+				position: absolute;
+				margin-top: 217px;
+				margin-left: 153px;
+			}
+
+			.cite {
+				position: absolute;
+				margin-top: 343px;
+				width: 441px;
+				height: 146px;
+				border: 4px solid rgba(209, 171, 103, 0.73);
+				margin-left: 182px;
+				font-family: 'Josefin Slab', serif;
+				font-style: italic;
+				color: #0C0906;
+				font-size: 24px;
+				text-align: center;
+				letter-spacing: 2px;
+			}
+
+			.cite h2 {
+				margin-top: 23px;
+			}
+
+			.cite blockquote {
+				font-size: 18px;
+				font-style: normal;
+				font-weight: 600;
+				text-transform: uppercase;
+				margin-top: 15px;
+			}
+
+			.hor-bar {
+				width: 50px;
+				height: 3px;
+				background-color: rgba(209, 171, 103, 0.73);
+				margin: 0 auto;
+				margin-top: 15px;
+			}
+
+			.img-transit {
+				width: 327px;
+				height: 491px;
+				position: absolute;
+				margin-top: 120px;
+				margin-left: 664px;
+				border: 4px solid rgba(209, 171, 103, 0.73);
+			}
+
+			.img-transit img {
+				padding: 30px 0 0 27px; 
+				position: absolute;
+			}
+		/* Sessão de Portifólio */
+			.fourth-sc {
+				width: 100%;
+				height: 344px;
+				background-color: #F8F7F5;
+			}
+		/* Contatos */
+			.fifth-sc {
+				width: 100%;
+				height: 513px;
+				background: url("../img/home/bg-home-contact.jpg") no-repeat center;
+			}
+
+			.contacts {
+				position: absolute;
+				width: 580px;
+				height: 447px;
+				background-color: #F8F7F5;
+				margin-left: 290px;
+				text-align: center;
+				letter-spacing: 2px;
+				color: #D1AB67;
+				font-family: 'Josefin Slab', serif;
+			}
+
+			.contacts h2{
+				font-size: 40px;
+				font-family: 'Niconne', cursive;	
+				margin-bottom: 30px;	
+				margin-top: 30px;		
+			}
+
+			.contacts h4 {
+				font-size: 20px;				
+				width: 245px;
+				margin: 0 auto;
+				line-height: 26px;
+				margin-bottom: 30px;
+			}
+
+			.contacts h3 {
+				text-transform: uppercase;
+				margin-bottom: 15px;
+				font-weight: 700;	
+			}
+		/* Footer */
+			.footer {
+				width: 100%;
+				height: 59px;
+				background-color: #F8F7F5;
+			}
+
+			.f-menu {
+				float: right;
+				font-size: 16px;
+				font-family: 'Josefin Slab', serif;
+				margin-top: 23px;
+			}
+
+			.f-menu li {
+				display: inline-block;
+				margin-left: 30px;
+				text-transform: uppercase;
+				font-weight: 700;
+				color: #000000;
+			}
+
+			.cpr {
+				font-size: 16px;
+				font-family: 'Josefin Slab', serif;
+				position: absolute;
+				height: 59px;
+			}
+
+			.cpr p {
+				float: left;
+				display: inline-block;
+				margin-top: 22.69px;
+			}
+
+			.cpr a {
+				margin-left: 5px;
+				float: left;
+				margin-top: 20px;	
 			}
 	}

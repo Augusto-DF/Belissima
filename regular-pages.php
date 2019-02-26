@@ -2,7 +2,7 @@
 	<section class="fourth-sc">
 		<div class="container">
 			<a href="https://www.instagram.com/?hl=pt-br">
-				<div class="insta">
+				<div class="btn">
 					<h3>Visite nosso instagram</h3>
 				</div>
 			</a>

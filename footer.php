@@ -7,8 +7,10 @@
 			 	<a href="contato.php"><li>Contato</li></a>
 		 	</ul>
 		 	<div class="cpr">
-				<h5>Copyright © 2018 Belíssima Esmalteria<br>Alguns direitos reservados<br>Site projetado por Dragonfly</h5>
-				<a href="https://dragonflycorp.com.br/"><img src="img/home/f-logo.png"></a>
+				<p>Copyright © 2019 Belíssima Esmalteria </p> 
+				<p>Alguns direitos reservados </p>
+				<p>Site projetado por Dragonfly</p>
+				<a href="https://dragonflycorp.com.br/"><img title="Dark Dragonfly" alt="Logo-dragonfly-negra" src="img/home/f-logo.png"></a>
 		 	</div>
 		</div>
 	</footer>
@@ -16,6 +18,4 @@
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
-
-
 </html>

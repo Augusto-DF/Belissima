@@ -35,8 +35,4 @@
 				<a href=""><img src="img/header/logo.png"></a>
 			</div>
 		</div>		
-	</header>
-
-
-
-	
+	</header>	
