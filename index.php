@@ -52,7 +52,7 @@
 		</div>
 	</section>
 
-<!-- Sessão de transição -->
+<!-- Sessão de Trasição -->
 	<div class="third-sc">
 		<div class="container">
 			<a href="contato.php"><div class="btn">

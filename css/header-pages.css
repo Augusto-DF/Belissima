@@ -1,4 +1,49 @@
+/* Desktop e Tablets*/
+	.invisible-dkt {
+		display: none;
+	}
+	/* Header */
+		.menu-sandwich {
+			display: none;
+		}
+
+		.menu {
+			width: 100%;
+			height: 98px;
+			background-color: #F8F7F5
+		}
+
+		.header-menu ul {
+			float: right;
+			margin-top: 42px;
+			font-size: 18px;
+			font-family: 'Josefin Slab', serif;
+			text-transform: uppercase;		
+		}
+
+		.header-menu ul li{
+			display: inline-block;
+			margin-left: 30px;
+		}
+
+		.header-menu ul li a {
+			color: #000000;
+			font-weight: 700;
+		}
+
+		.logo img {
+			width: 132.15px;
+			height: 37.7px;
+			margin-top: 30px;
+		}
+	
+
+
+/* Mobile Only */
 @media only screen and (max-width: 670px) {
+	.invisible-mb {
+		display: none;
+	}	
 	/* Header */
 		.menu {
 			height: 98px;
@@ -9,6 +54,7 @@
 		}
 
 		.menu-sandwich {
+			display: block;
 			width: 30px;
 			height: 28px;
 			position: absolute;
@@ -39,8 +85,6 @@
 		.header-menu {
 			display: none;
 		}
-
-
 	/* Contatos */
 		.fifth-sc {
 			width: 100%;
@@ -83,7 +127,6 @@
 			width: 221px;
 			margin: 0 auto;
 		}
-
 	/* Footer */
 		.footer {
 			width: 100%;
@@ -156,7 +199,6 @@
 			/* bg temporario */
 			background-color: grey;
 		}
-
 	/* Efeitos */
 
 		/* Efeito menu */	
@@ -222,7 +264,119 @@
 			.header-menu li a {
 				color: #000000;
 				font-weight: 700;
+			}			
+}
+
+@media only screen and ( min-width: 671px ) and ( max-width: 1189px ){
+
+}
+
+@media only screen and ( min-width: 1190px ){
+	/* Sessão de portifólio */
+		.fourth-sc {
+			width: 100%;
+			height: 344px;
+			background-color: #F8F7F5;
+		}
+
+		.btn {
+				width: 704px;
+				height: 40px;
+				color: #000000;
+				border: 1px solid #000000;
+				margin: 0 auto;
+				font-family: 'Josefin Slab', serif;
+				font-size: 16px;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				margin-top: 30px;
 			}
 
-			
+			.btn h3 {
+				position: absolute;
+				font-weight: 700;
+				margin-top: 13px;
+				margin-left: 247.5px;
+			}
+
+	/* Contatos */
+		.fifth-sc {
+				width: 100%;
+				height: 513px;
+				background: url("../img/home/bg-home-contact.jpg") no-repeat center;
+			}
+
+			.contacts {
+				position: absolute;
+				width: 580px;
+				height: 447px;
+				background-color: #F8F7F5;
+				margin-left: 290px;
+				text-align: center;
+				letter-spacing: 2px;
+				color: #D1AB67;
+				font-family: 'Josefin Slab', serif;
+			}
+
+			.contacts h2{
+				font-size: 40px;
+				font-family: 'Niconne', cursive;	
+				margin-bottom: 30px;	
+				margin-top: 30px;		
+			}
+
+			.contacts h4 {
+				font-size: 20px;				
+				width: 245px;
+				margin: 0 auto;
+				line-height: 26px;
+				margin-bottom: 30px;
+			}
+
+			.contacts h3 {
+				text-transform: uppercase;
+				margin-bottom: 15px;
+				font-weight: 700;	
+			}
+
+	/* Footer */
+		.footer {
+			width: 100%;
+			height: 59px;
+			background-color: #F8F7F5;
+		}
+
+		.f-menu {
+			float: right;
+			font-size: 16px;
+			font-family: 'Josefin Slab', serif;
+			margin-top: 23px;
+		}
+
+		.f-menu li {
+			display: inline-block;
+			margin-left: 25px;
+			text-transform: uppercase;
+			font-weight: 700;
+			color: #000000;
+		}
+
+		.cpr {
+			font-size: 16px;
+			font-family: 'Josefin Slab', serif;
+			position: absolute;
+			height: 59px;
+		}
+
+		.cpr p {
+			float: left;
+			display: inline-block;
+			margin-top: 22.69px;
+		}
+
+		.cpr a {
+			margin-left: 5px;
+			float: left;
+			margin-top: 20px;	
+		}
 }

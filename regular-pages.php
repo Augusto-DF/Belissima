@@ -6,11 +6,6 @@
 					<h3>Visite nosso instagram</h3>
 				</div>
 			</a>
-
-			<div class="box-port">
-				<!-- Slider -->
-				Slider
-			</div>
 		</div>
 	</section>
 <!-- Contatos -->

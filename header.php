@@ -15,7 +15,6 @@
 <link rel="stylesheet" href="css/grid.css">
 <link rel="stylesheet" href="css/style.css">
 
-
 <body>
 	<a href="" id="menu-sandwich"><div class="menu-sandwich">
 		<div class="bar-1"></div>
