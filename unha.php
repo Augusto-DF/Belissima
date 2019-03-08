@@ -48,8 +48,7 @@
 					<h4>(84) 3207-1599</h4>
 					<h4>(84) 98805-0464 ( Whatsapp )</h4>
 					<h4>Av. dos Ipês, 754 A - Neópolis - </br>Natal - RN</h4>
-				</ul>
-				
+				</ul>				
 			</div>
 		</div>
 	</section>

@@ -16,6 +16,7 @@
 		.header-menu ul {
 			float: right;
 			margin-top: 42px;
+			margin-right: 20px;
 			font-size: 18px;
 			font-family: 'Josefin Slab', serif;
 			text-transform: uppercase;		
@@ -280,24 +281,24 @@
 		}
 
 		.btn {
-				width: 704px;
-				height: 40px;
-				color: #000000;
-				border: 1px solid #000000;
-				margin: 0 auto;
-				font-family: 'Josefin Slab', serif;
-				font-size: 16px;
-				text-transform: uppercase;
-				letter-spacing: 2px;
-				margin-top: 30px;
-			}
+			width: 704px;
+			height: 40px;
+			color: #000000;
+			border: 1px solid #000000;
+			margin: 0 auto;
+			font-family: 'Josefin Slab', serif;
+			font-size: 16px;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			margin-top: 30px;
+		}
 
-			.btn h3 {
-				position: absolute;
-				font-weight: 700;
-				margin-top: 13px;
-				margin-left: 247.5px;
-			}
+		.btn h3 {
+			position: absolute;
+			font-weight: 700;
+			margin-top: 13px;
+			margin-left: 247.5px;
+		}
 
 	/* Contatos */
 		.fifth-sc {
@@ -351,6 +352,7 @@
 			font-size: 16px;
 			font-family: 'Josefin Slab', serif;
 			margin-top: 23px;
+			margin-right: 20px;
 		}
 
 		.f-menu li {
