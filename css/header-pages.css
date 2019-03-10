@@ -86,6 +86,29 @@
 		.header-menu {
 			display: none;
 		}
+
+	/* Botão */
+		.btn {
+				width: 290px;
+				height: 60px;
+				margin: 0 auto;
+				border: 1px solid #0C0906;
+				margin-top: 43px;
+				text-align: center;
+				color: #0C0906;
+			}
+
+			.btn h3 {
+				width: 113px;
+				margin: 0 auto;
+				font-size: 16px;
+				font-family: 'Josefin Slab', serif;
+				line-height: 21px;
+				margin-top: 8px;
+				font-weight: 600;
+				text-transform: uppercase;
+			}
+			
 	/* Contatos */
 		.fifth-sc {
 			width: 100%;
@@ -254,8 +277,9 @@
 				text-transform: uppercase;				
 			}
 
-			.header-menu li {
+			.header-menu ul li {
 				margin-bottom: 50px;
+				display: block;
 			}
 
 			.header-menu li:first-child {

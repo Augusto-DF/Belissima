@@ -17,11 +17,13 @@
 
 
 <body>
-		<a href="" id="menu-sandwich"><div class="menu-sandwich" >
+	<a href="" id="menu-sandwich">
+		<div class="menu-sandwich" >
 			<div class="bar-1"></div>
 			<div class="bar-2"></div>
 			<div class="bar-3"></div>
-		</div></a>
+		</div>
+	</a>
 	<header class="menu">
 		<div class="container">
 			<div class="header-menu">
