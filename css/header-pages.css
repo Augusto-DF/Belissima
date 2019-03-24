@@ -37,8 +37,6 @@
 			height: 37.7px;
 			margin-top: 30px;
 		}
-	
-
 
 /* Mobile Only */
 @media only screen and (max-width: 670px) {
@@ -86,7 +84,6 @@
 		.header-menu {
 			display: none;
 		}
-
 	/* Botão */
 		.btn {
 				width: 290px;
@@ -107,8 +104,7 @@
 				margin-top: 8px;
 				font-weight: 600;
 				text-transform: uppercase;
-			}
-			
+			}			
 	/* Contatos */
 		.fifth-sc {
 			width: 100%;
@@ -291,11 +287,114 @@
 				font-weight: 700;
 			}			
 }
-
+/* Tablets Only */
 @media only screen and ( min-width: 671px ) and ( max-width: 1189px ){
+	/* Header */
+		.header-menu ul {
+			font-size: 14px;
+		}
+	/* Sessão de Portifólio */
+		.fourth-sc {
+			width: 100%;
+			height: 344px;
+			background-color: #F8F7F5;
+		}
 
+		.btn {
+			width: 580px;
+			height: 40px;
+			color: #000000;
+			border: 1px solid #000000;
+			margin: 0 auto;
+			font-family: 'Josefin Slab', serif;
+			font-size: 16px;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			margin-top: 30px;
+		}
+
+		.btn h3 {
+			position: absolute;
+			font-weight: 700;
+			margin-top: 13px;
+			margin-left: 157px;
+		}
+	/* Contatos */
+		.fifth-sc {
+			width: 100%;
+			height: 513px;
+			background: url("../img/home/bg-home-contact.jpg") no-repeat center;
+		}
+
+		.contacts {
+			position: absolute;
+			width: 580px;
+			height: 447px;
+			background-color: #F8F7F5;
+			margin-left: 30px;
+			text-align: center;
+			letter-spacing: 2px;
+			color: #D1AB67;
+			font-family: 'Josefin Slab', serif;
+		}
+
+		.contacts h2{
+			font-size: 40px;
+			font-family: 'Niconne', cursive;	
+			margin-bottom: 30px;	
+			margin-top: 30px;		
+		}
+
+		.contacts h4 {
+			font-size: 20px;				
+			width: 245px;
+			margin: 0 auto;
+			line-height: 26px;
+			margin-bottom: 30px;
+		}
+
+		.contacts h3 {
+			text-transform: uppercase;
+			margin-bottom: 15px;
+			font-weight: 700;	
+		}
+	/* Footer */
+		.footer {
+			width: 100%;
+			height: 306px;
+			background-color: #F8F7F5;
+			text-align: center;
+		}
+
+		.f-menu {
+			margin-top: 40px;			
+		}
+
+		.f-menu li {
+			display: inline-block;
+			margin: 0 12px;
+			margin-top: 28px;
+			font-family: 'Josefin Slab', serif;
+			font-size: 14px;
+			text-align: center;
+			text-transform: uppercase;
+			color: #000000;
+			font-weight: 700;
+		}
+
+		.cpr {
+			margin-top: 40px;
+			font-family: 'Josefin Slab', serif;
+			font-size: 18px;
+			text-align: center;
+			line-height: 28px;
+		}
+
+		.cpr img {
+			margin-top: 15px;
+		}
 }
-
+/* Desktop Only */
 @media only screen and ( min-width: 1190px ){
 	/* Sessão de portifólio */
 		.fourth-sc {
@@ -323,47 +422,45 @@
 			margin-top: 13px;
 			margin-left: 247.5px;
 		}
-
 	/* Contatos */
 		.fifth-sc {
-				width: 100%;
-				height: 513px;
-				background: url("../img/home/bg-home-contact.jpg") no-repeat center;
-			}
+			width: 100%;
+			height: 513px;
+			background: url("../img/home/bg-home-contact.jpg") no-repeat center;
+		}
 
-			.contacts {
-				position: absolute;
-				width: 580px;
-				height: 447px;
-				background-color: #F8F7F5;
-				margin-left: 290px;
-				text-align: center;
-				letter-spacing: 2px;
-				color: #D1AB67;
-				font-family: 'Josefin Slab', serif;
-			}
+		.contacts {
+			position: absolute;
+			width: 580px;
+			height: 447px;
+			background-color: #F8F7F5;
+			margin-left: 290px;
+			text-align: center;
+			letter-spacing: 2px;
+			color: #D1AB67;
+			font-family: 'Josefin Slab', serif;
+		}
 
-			.contacts h2{
-				font-size: 40px;
-				font-family: 'Niconne', cursive;	
-				margin-bottom: 30px;	
-				margin-top: 30px;		
-			}
+		.contacts h2{
+			font-size: 40px;
+			font-family: 'Niconne', cursive;	
+			margin-bottom: 30px;	
+			margin-top: 30px;		
+		}
 
-			.contacts h4 {
-				font-size: 20px;				
-				width: 245px;
-				margin: 0 auto;
-				line-height: 26px;
-				margin-bottom: 30px;
-			}
+		.contacts h4 {
+			font-size: 20px;				
+			width: 245px;
+			margin: 0 auto;
+			line-height: 26px;
+			margin-bottom: 30px;
+		}
 
-			.contacts h3 {
-				text-transform: uppercase;
-				margin-bottom: 15px;
-				font-weight: 700;	
-			}
-
+		.contacts h3 {
+			text-transform: uppercase;
+			margin-bottom: 15px;
+			font-weight: 700;	
+		}
 	/* Footer */
 		.footer {
 			width: 100%;

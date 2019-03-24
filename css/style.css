@@ -38,7 +38,8 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 			height: 700px;
 			overflow: hidden;
 			background: url("../img/home/intro-bg-home-desktop.jpg") no-repeat;
-			background-position: left -50px top 0px;
+			background-position: center;
+			background-size: cover;
 		}
 
 		.filter {

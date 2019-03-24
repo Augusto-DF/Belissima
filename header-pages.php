@@ -34,7 +34,7 @@
 				</ul>
 			</div>
 			<div class="logo">
-				<a href=""><img src="img/header-pages/logo-pages.png"></a>
+				<a href="index.php"><img src="img/header-pages/logo-pages.png"></a>
 			</div>
 		</div>		
 	</header>
