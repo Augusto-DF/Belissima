@@ -4,7 +4,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 	font-family: 'Josefin Slab';
 }
 
-
 /* Tablets e Desktops */
 	/* Header */
 		.menu-sandwich {
@@ -860,6 +859,27 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				position: absolute;
 			}
 		/* Sessão de Portifólio */
+			.wrapper {
+				width: 704px;
+				height: auto;
+				margin: 0 auto;
+				margin-top: 100px;
+				overflow: hidden;
+			}
+
+			.slide {
+				display: flex;
+			}
+
+			.slide li {
+				flex-shrink: 0;
+				width: 214px;
+				margin: 0 13px;
+			}
+
+			.slide li:first-child {
+				margin: 0 13px 0 0;
+			}
 		/* Contatos */
 			.fifth-sc {
 				width: 100%;

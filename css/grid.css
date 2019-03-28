@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
 .container {
 	width: 1170px;
 	margin: 0 auto;

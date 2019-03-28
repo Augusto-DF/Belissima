@@ -6,8 +6,21 @@
 					<h3>Visite nosso instagram</h3>
 				</div>
 			</a>
+			<!-- Slider -->
+			<div class="wrapper">
+				<ul class="slide">
+					<li><img src="img/home/t1.jpg"></li>
+					<li><img src="img/home/t2.jpg"></li>
+					<li><img src="img/home/t3.jpg"></li>
+					<li><img src="img/home/t1.jpg"></li>
+					<li><img src="img/home/t1.jpg"></li>
+					<li><img src="img/home/t3.jpg"></li>
+				</ul>
+			</div>
 		</div>
 	</section>
+
+
 <!-- Contatos -->
 	<section class="fifth-sc">
 		<div class="container">
