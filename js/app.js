@@ -36,7 +36,6 @@ $(document).ready(function(){
 
 		//Vetor com todos os data-svcScroll
 		let svc = document.querySelectorAll('[data-svcScroll]');
-		console.log(svc);
 		for(let ii = 0; ii < svc.length; ++ii){
 			svc[ii].addEventListener('click', function(ev){
 				ev.preventDefault();
