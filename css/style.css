@@ -22,8 +22,8 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 			width: 100%;
 		}
 
-		.header-menu li a {
-			color: white;	
+		.header-menu a {
+			color: #FFFFFF;	
 			font-weight: 600;		
 		}
 
@@ -749,6 +749,16 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				text-transform: uppercase;
 				letter-spacing: 2px;
 			}
+			/* Header efeitos */			
+				.header-menu ul li a {
+					border-bottom: 1px solid;	
+					border-color: transparent;	
+				}
+
+				.header-menu ul li a:hover {
+					border-color: #FFFFFF;			
+					transition: .5s;	
+				}
 		/* Intro */
 			.intro h1 {
 				font-size: 54px;
@@ -951,4 +961,14 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				float: left;
 				margin-top: 20px;	
 			}
+			/* footer efeitos */			
+				.f-menu a li {
+					border-bottom: 1px solid;	
+					border-color: transparent;	
+				}
+
+				.f-menu a li:hover {
+					border-color: #000000;			
+					transition: .5s;	
+				}
 	}

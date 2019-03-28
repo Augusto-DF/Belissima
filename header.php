@@ -26,8 +26,8 @@
 			<div class="header-menu">
 				<ul>
 					<li><a href="index.php">Início</a></li>
-					<li><a href="contato.php">Contato</a></li>
-					<li><a href="index.php #unha">Serviços</a></li>			
+					<li><a href="index.php #unha" data-svcScroll>Serviços</a></li>
+					<li><a href="contato.php">Contato</a></li>	
 				</ul>
 			</div>
 			<div class="logo">

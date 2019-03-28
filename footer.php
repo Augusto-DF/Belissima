@@ -3,7 +3,7 @@
 		<div class="container">
 			<ul class="f-menu">
 			 	<a href="index.php"><li>Início</li></a>
-			 	<a href="#servicos"><li>Serviços</li></a>
+			 	<a href="index.php #sc" data-svcScroll><li>Serviços</li></a>
 			 	<a href="contato.php"><li>Contato</li></a>
 		 	</ul>
 		 	<div class="cpr">

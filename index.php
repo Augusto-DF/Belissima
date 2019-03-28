@@ -15,7 +15,7 @@
 	</section>
 
 <!-- Sessão de Serviços -->
-	<section class="second-sc">
+	<section class="second-sc" id="sc">
 		<div class="container">
 			<!-- Ancora unha -->
 			<a href="unha.php">

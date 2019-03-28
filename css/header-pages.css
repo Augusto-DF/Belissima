@@ -27,7 +27,7 @@
 			margin-left: 30px;
 		}
 
-		.header-menu ul li a {
+		.header-menu li a {
 			color: #000000;
 			font-weight: 700;
 		}
@@ -396,6 +396,17 @@
 }
 /* Desktop Only */
 @media only screen and ( min-width: 1190px ){
+	/* Header */
+		/* Header efeitos */			
+				.header-menu ul li a {
+					border-bottom: 1px solid;	
+					border-color: transparent;	
+				}
+
+				.header-menu ul li a:hover {
+					border-color: #000000;			
+					transition: .5s;	
+				}
 	/* Sessão de portifólio */
 		.fourth-sc {
 			width: 100%;
@@ -502,4 +513,14 @@
 			float: left;
 			margin-top: 20px;	
 		}
+		/* footer efeitos */			
+			.f-menu a li {
+				border-bottom: 1px solid;	
+				border-color: transparent;	
+			}
+
+			.f-menu a li:hover {
+				border-color: #000000;			
+				transition: .5s;	
+			}
 }
