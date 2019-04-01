@@ -30,7 +30,7 @@
 				<ul>
 					<li><a href="index.php">Início</a></li>
 					<li><a href="contato.php">Contato</a></li>
-					<li><a href="index.php #unha">Serviços</a></li>			
+					<li><a href="index.php">Serviços</a></li>			
 				</ul>
 			</div>
 			<div class="logo">
