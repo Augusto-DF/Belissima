@@ -3,9 +3,8 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 	padding: 0;
 	font-family: 'Josefin Slab';
 }
-
-/* Tablets e Desktops */
-	/* Header */
+/** Tablets e Desktops */
+	/** Header */
 		.menu-sandwich {
 			display: none;
 		}
@@ -31,7 +30,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 			width: 150px;
 			margin-top: 35px;	
 		}
-	/* Intro */
+	/** Intro */
 		.intro-bg {
 			width: 100%;
 			height: 700px;
@@ -62,7 +61,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 			font-family: 'Niconne', cursive;
 			text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 		}
-	/* Sessão de serviços */
+	/** Sessão de serviços */
 		.svc-name {
 			position: absolute;			
 			background-color: rgba(255, 255, 255, 0.9);			
@@ -74,7 +73,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 		.svc-name h3 {
 			font-weight: 700;
 		}
-	/* Sessão de transição */
+	/** Sessão de transição */
 		.third-sc {
 			height: 831px;
 			background-color: #FFFFFF;
@@ -99,15 +98,16 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				margin-top: 13px;
 				margin-left: 247.5px;
 			}
-	/* Sessão de Portifólio */
+	/** Sessão de Portifólio */
 		.fourth-sc {
 				width: 100%;
 				height: 344px;
 				background-color: #F8F7F5;
 			}
-/* Phony Only */
+		
+/** Phony Only */
 	@media only screen and (max-width: 670px) {
-		/* Header */
+		/** Header */
 			.menu {
 				height: 98px;
 				width: 100%;
@@ -129,13 +129,13 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				z-index: 40;
 			}
 
-			/* Menu branco */
+			/** Menu branco */
 			.bar-1, .bar-2, .bar-3 {
 				width: 30px;
 				height: 4px;
 				margin-bottom: 8px;
 				background-color: #FFFFFF;
-				/*border-radius: 3px;*/
+				/**border-radius: 3px;*/
 				transition: 0.4s;
 			}
 
@@ -147,7 +147,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				margin-top: 30px;
 				max-width: 122px;
 			}
-		/* Introdução */
+		/** Introdução */
 			.intro-bg {
 				height: 640px;
 				overflow: hidden;
@@ -186,7 +186,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				font-weight: 400;
 				text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 			}
-		/* Sessão dos serviços */
+		/** Sessão dos serviços */
 			.second-sc {
 				background-color: #FFFFFF;
 				height: 1298px;
@@ -234,13 +234,14 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 			#make {
 				background: url("../img/home/svc-make.jpg") no-repeat center;
 			}
-		/* Sessão de Transição */
+		/** Sessão de Transição */
 			.third-sc {
 				height: 613px;
 				background-color: #FFFFFF;
 			}
 
 			.btn {
+				position: relative;
 				width: 290px;
 				height: 60px;
 				margin: 0 auto;
@@ -265,7 +266,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				width: 298.23px;
 				height: 84.84px;
 				position: absolute;
-				margin-top: 210px;
+				margin-top: 120px;
 				z-index: 10;
 			}
 
@@ -274,7 +275,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				height: 212px;
 				margin: 0 auto;
 				border: 2px solid #D1AB67;
-				margin-top: 281px;
+				margin-top: 191px;
 				text-align: center;
 				font-family: 'Josefin Slab', serif;
 				text-decoration: none;
@@ -311,7 +312,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 			.img-transit {
 				display: none;
 			}
-		/* Sessão de portifólio */
+		/** Sessão de portifólio */
 			.fourth-sc {
 				width: 100%;
 				height: 450px;
@@ -323,10 +324,31 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				height: 290px;
 				margin: 0 auto;
 				margin-top: 20px;
-				/* bg temporario */
+				/** bg temporario */
 				background-color: grey;
 			}
-		/* Contatos */
+
+			.wrapper {
+				width: 290px;
+				margin: 0 auto;
+				margin-top: 20px;
+				overflow: hidden;
+			}
+
+			.slide {
+				display: flex;
+			}
+
+			.slide li {
+				flex-shrink: 0;
+				width: 290px;
+				margin: 0 13px;
+			}
+
+			.slide li:first-child {
+				margin: 0 13px 0 0;
+			}
+		/** Contatos */
 			.fifth-sc {
 				width: 100%;
 				height: 496px;
@@ -368,7 +390,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				width: 221px;
 				margin: 0 auto;
 			}
-		/* Footer */
+		/** Footer */
 			.footer {
 				width: 100%;
 				height: 306px;
@@ -393,10 +415,10 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 			}
 
 			.cpr {
+				text-align: center;
 				margin-top: 169px;
 				font-family: 'Josefin Slab', serif;
 				font-size: 18px;
-				text-align: center;
 				line-height: 22px;
 			}
 
@@ -405,11 +427,13 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 			}
 
 			.cpr img {	
+				width: 31px;
+				margin: 0 auto;
 				margin-top: 15px;
 			}
-		/* Efeitos */
+		/** Efeitos */
 
-			/* Efeito menu */
+			/** Efeito menu */
 				.menu-sw-active {				
 					position: fixed;
 					z-index: 31;							
@@ -418,7 +442,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				.change {
 					position: fixed;
 				}
-				/* Menu preto */
+				/** Menu preto */
 					.change .bar-1 {
 		  				-webkit-transform: translate(0px, 12px) rotate(-45deg);
 		  				transform: translate(0px, 12px) rotate(-45deg) ;
@@ -483,9 +507,9 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 					visibility: hidden;	
 				}			
 	}
-/* Tablets */
+/** Tablets */
 	@media only screen and (min-width: 671px) and (max-width: 1189px) {
-		/* Header */
+		/** Header */
 			.header-menu ul {
 				font-size: 14px;
 				margin-top: 42px;
@@ -499,7 +523,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				text-transform: uppercase;
 				letter-spacing: 2px;
 			}
-		/* Intro */
+		/** Intro */
 			.intro h1 {
 				font-size: 44px;
 			}
@@ -511,7 +535,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 			.intro-bg {
 				background-position: center;
 			}		
-		/* Sessão de Serviços*/
+		/** Sessão de Serviços*/
 			.second-sc {
 				width: 100%;
 				height: 404px;
@@ -570,7 +594,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 			#make {
 				background: url("../img/home/svc-dkt-make.jpg") no-repeat center;
 			}
-		/* Sessão de Transição*/
+		/** Sessão de Transição*/
 			.third-sc {
 				height: 643px;
 			}
@@ -633,18 +657,39 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 			.img-transit {
 				width: 201.26px;
 				height: 309.23px;
-				position: absolute;
 				margin-top: 177.83px;
 				margin-left: 372.64px;
 				border: 3px solid rgba(209, 171, 103, 0.73);
 			}
 
 			.img-transit img {
-				padding: 20px 0 0 18px; 
+				padding: 8	px 0 0 18px; 
 				width: 219.26px;			
 				position: absolute;
 			}
-		/* Contatos */
+		/** Sessão de Portifólio */
+			.wrapper {
+				width: 580px;
+				height: auto;
+				margin: 0 auto;
+				margin-top: 85px;
+				overflow: hidden;
+			}
+
+			.slide {
+				display: flex;
+			}
+
+			.slide li {
+				flex-shrink: 0;
+				width: 214px;
+				margin: 0 12px;
+			}
+
+			.slide li:first-child {
+				margin: 0 12px 0 0;
+			}
+		/** Contatos */
 			.fifth-sc {
 				width: 100%;
 				height: 507px;
@@ -682,7 +727,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				margin-bottom: 15px;
 				font-weight: 700;	
 			}
-		/* Footer */
+		/** Footer */
 			.footer {
 				width: 100%;
 				height: 228px;
@@ -707,13 +752,19 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				color: #000000;
 			}
 
+			.cpr img {
+				width: 31px;
+				margin: 0 auto;
+				margin-top: 10px;
+			}
+
 			.cpr p, img {
 				margin-top: 10px;
 			}
 	}
-/* Desktops */
+/** Desktops */
 	@media only screen and (min-width: 1190px) {
-		/* Header */
+		/** Header */
 			.header-menu ul {
 				font-size: 18px;
 				margin-top: 42px;
@@ -727,7 +778,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				text-transform: uppercase;
 				letter-spacing: 2px;
 			}
-			/* Header efeitos */			
+			/** Header efeitos */			
 				.header-menu ul li a {
 					border-bottom: 1px solid;	
 					border-color: transparent;	
@@ -737,7 +788,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 					border-color: #FFFFFF;			
 					transition: .5s;	
 				}
-		/* Intro */
+		/** Intro */
 			.intro h1 {
 				font-size: 54px;
 			}
@@ -745,7 +796,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 			.intro h2 {
 				font-size: 90px;
 			}
-		/* Sessão de Serviços */
+		/** Sessão de Serviços */
 			.second-sc {
 				width: 100%;
 				height: 432px;
@@ -803,7 +854,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 			#make {
 				background: url("../img/home/svc-dkt-make.jpg") no-repeat center;
 			}
-		/* Sessão de Transição */
+		/** Sessão de Transição */
 			.logo-transit {
 				position: absolute;
 				margin-top: 217px;
@@ -848,7 +899,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 			.img-transit {
 				width: 327px;
 				height: 491px;
-				position: absolute;
 				margin-top: 120px;
 				margin-left: 664px;
 				border: 4px solid rgba(209, 171, 103, 0.73);
@@ -858,7 +908,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				padding: 30px 0 0 27px; 
 				position: absolute;
 			}
-		/* Sessão de Portifólio */
+		/** Sessão de Portifólio */
 			.wrapper {
 				width: 704px;
 				height: auto;
@@ -880,7 +930,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 			.slide li:first-child {
 				margin: 0 13px 0 0;
 			}
-		/* Contatos */
+		/** Contatos */
 			.fifth-sc {
 				width: 100%;
 				height: 513px;
@@ -919,7 +969,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				margin-bottom: 15px;
 				font-weight: 700;	
 			}
-		/* Footer */
+		/** Footer */
 			.footer {
 				width: 100%;
 				height: 59px;
@@ -950,7 +1000,6 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 			}
 
 			.cpr p {
-				float: left;
 				display: inline-block;
 				margin-top: 22.69px;
 			}
@@ -960,7 +1009,7 @@ h1,h2,h3,h4,h5,h6,p,ul,li,blockquote {
 				float: left;
 				margin-top: 20px;	
 			}
-			/* footer efeitos */			
+			/** footer efeitos */			
 				.f-menu a li {
 					border-bottom: 1px solid;	
 					border-color: transparent;	

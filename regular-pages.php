@@ -9,12 +9,11 @@
 			<!-- Slider -->
 			<div class="wrapper">
 				<ul class="slide">
-					<li><img src="img/home/t1.jpg"></li>
-					<li><img src="img/home/t2.jpg"></li>
-					<li><img src="img/home/t3.jpg"></li>
-					<li><img src="img/home/t1.jpg"></li>
-					<li><img src="img/home/t1.jpg"></li>
-					<li><img src="img/home/t3.jpg"></li>
+					<li><img src="img/home/insta1.jpg" alt="foto-1-instagram" title="Instagram"></li>
+					<li><img src="img/home/insta2.jpg" alt="foto-2-instagram" title="Instagram"></li>
+					<li><img src="img/home/insta3.jpg" alt="foto-3-instagram" title="Instagram"></li>
+					<li><img src="img/home/insta4.jpg" alt="foto-4-instagram" title="Instagram"></li>
+					<li><img src="img/home/insta5.jpg" alt="foto-5-instagram" title="Instagram"></li>
 				</ul>
 			</div>
 		</div>

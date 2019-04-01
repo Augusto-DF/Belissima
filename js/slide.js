@@ -22,7 +22,12 @@ export default class Slide {
 			finalPosition: 0,
 			startX: 0,
 			movement: 0,
-			currentPosition: null
+			currentPosition: null,
+
+			overflowEnd: false,
+			overflowEndDistance: 0,
+			overflowStart: false,
+			overflowStartDistance: 0
 		};
 	}
 
@@ -39,6 +44,15 @@ export default class Slide {
 	}
 
 	/**
+		Metodo que tem basicamente o mesmo efeito do metodo a cima
+	só que para versão mobile (Ou seja, o touch).
+	*/
+	onTouch(event){
+		this.distance.startX = event.changedTouches[0].clientX;
+		this.wrapper.addEventListener('touchmove', this.onMoveT);
+	}
+
+	/**
 		Metodo que removerá um evento de mousemove quando despressionar 
 	o mouse.
 		Obs.: O 'this' de 'this.onMove' não se refere ao objeto
@@ -46,6 +60,15 @@ export default class Slide {
 	*/
 	onDepress(event){
 		this.wrapper.removeEventListener('mousemove', this.onMove);
+		this.distance.finalPosition = this.distance.currentPosition;
+	}
+
+	/**
+		Metodo que tem, basicamente, o mesmo efeito do metodo acima
+	só que para a versão mobile.
+	*/
+	onUntouched(event){
+		this.wrapper.removeEventListener('touchmove', this.onMoveT);
 		this.distance.finalPosition = this.distance.currentPosition;
 	}
 
@@ -67,6 +90,14 @@ export default class Slide {
 		Parametros: distancia percorrida em X.
 	*/
 	moveSlide(distanceX){
+		if(this.distance.overflowEnd){
+			distanceX = distanceX - this.distance.overflowEndDistance;
+			this.distance.overflowEnd = false;
+
+		} else if(this.distance.overflowStart) {
+			distanceX -= this.distance.overflowStartDistance;
+			this.distance.overflowStart = false;
+		}
 		this.distance.currentPosition = distanceX;
 		this.slide.style.transform = "translate3d(" + distanceX +"px,0,0)";
 	}
@@ -76,6 +107,32 @@ export default class Slide {
 	*/
 	onMove(event){
 		const finalPosition = this.updatePosition(event.clientX);
+
+		if(finalPosition  < -this.calcSizeSlideList()){
+			this.distance.overflowEndDistance = finalPosition + this.calcSizeSlideList();
+			this.distance.overflowEnd = true;
+		} else if(finalPosition > 0) {
+			this.distance.overflowStartDistance = finalPosition
+			this.distance.overflowStart = true;
+		}
+		this.moveSlide(finalPosition);
+	}
+
+	/**
+		Metodo que fará o mesmo que o metodo acima, entretanto para
+	o touch.
+	*/
+	onMoveT(event){
+		const finalPosition = this.updatePosition(event.changedTouches[0].clientX);
+
+		if(finalPosition  < -this.calcSizeSlideList()){
+			this.distance.overflowEndDistance = finalPosition + this.calcSizeSlideList();
+			this.distance.overflowEnd = true;
+		} else if(finalPosition > 0) {
+			this.distance.overflowStartDistance = finalPosition
+			this.distance.overflowStart = true;
+		
+		}
 		this.moveSlide(finalPosition);
 	}
 
@@ -85,6 +142,8 @@ export default class Slide {
 	addSlideEvent(){
 		this.wrapper.addEventListener('mousedown', this.onPress);
 		this.wrapper.addEventListener('mouseup', this.onDepress);
+		this.wrapper.addEventListener('touchstart', this.onTouch);
+		this.wrapper.addEventListener('touchend', this.onUntouched);
 	}
 
 	/** 
@@ -93,9 +152,25 @@ export default class Slide {
 	passem a apontar.
 	*/
 	bindEvents(){
+		// Mouse
 		this.onPress = this.onPress.bind(this);
 		this.onMove = this.onMove.bind(this);
 		this.onDepress = this.onDepress.bind(this);
+
+		// Touch
+		this.onTouch = this.onTouch.bind(this);
+		this.onMoveT = this.onMoveT.bind(this);
+		this.onUntouched = this.onUntouched.bind(this);
+	}
+
+	calcSizeSlideList(){
+		const wrapperSize = this.wrapper.offsetWidth;
+		const listSize = this.slide.children.length;
+		//Margin left de cada slide
+		const slidemargin = 13;
+		const slideSize = this.slide.children[0].offsetWidth;
+		
+		return listSize*(slideSize+2*slidemargin) - (wrapperSize + 2*slidemargin);
 	}
 
 	/**
@@ -105,6 +180,7 @@ export default class Slide {
 	intit(){
 		this.bindEvents();
 		this.addSlideEvent();
+		this.calcSizeSlideList();
 		return this;
 	}
 }

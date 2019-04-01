@@ -105,6 +105,63 @@
 				font-weight: 600;
 				text-transform: uppercase;
 			}			
+	/* Sessão de portifólio */
+		.fourth-sc {
+			width: 100%;
+			height: 450px;
+			background-color: #F8F7F5;
+		}
+
+		.insta {
+			width: 290px;
+			height: 60px;
+			margin: 0 auto;
+			border: 1px solid #0C0906;
+			margin-top: 43px;
+			text-align: center;
+			color: #0C0906;
+		}
+
+		.insta h3 {
+			width: 113px;
+			margin: 0 auto;
+			font-size: 16px;
+			font-family: 'Josefin Slab', serif;
+			line-height: 21px;
+			margin-top: 8px;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+
+		.box-port {
+			width: 290px;
+			height: 290px;
+			margin: 0 auto;
+			margin-top: 20px;
+			/* bg temporario */
+			background-color: grey;
+		}
+
+		.wrapper {
+			width: 290px;
+			margin: 0 auto;
+			margin-top: 20px;
+			overflow: hidden;
+		}
+
+		.slide {
+			display: flex;
+		}
+
+		.slide li {
+			flex-shrink: 0;
+			width: 290px;
+			margin: 0 13px;
+		}
+
+		.slide li:first-child {
+			margin: 0 13px 0 0;
+		}
 	/* Contatos */
 		.fifth-sc {
 			width: 100%;
@@ -180,45 +237,8 @@
 		}
 
 		.cpr img {
-			margin-top: 15px;
-		}
-
-		/* Sessão de portifólio */
-		.fourth-sc {
-			width: 100%;
-			height: 450px;
-			background-color: #F8F7F5;
-		}
-
-		.insta {
-			width: 290px;
-			height: 60px;
-			margin: 0 auto;
-			border: 1px solid #0C0906;
-			margin-top: 43px;
-			text-align: center;
-			color: #0C0906;
-		}
-
-		.insta h3 {
-			width: 113px;
-			margin: 0 auto;
-			font-size: 16px;
-			font-family: 'Josefin Slab', serif;
-			line-height: 21px;
-			margin-top: 8px;
-			font-weight: 600;
-			text-transform: uppercase;
-		}
-
-		.box-port {
-			width: 290px;
-			height: 290px;
-			margin: 0 auto;
-			margin-top: 20px;
-			/* bg temporario */
-			background-color: grey;
-		}
+			width: 31px;
+			margin: 0 auto;			
 	/* Efeitos */
 
 		/* Efeito menu */	
@@ -319,6 +339,28 @@
 			margin-top: 13px;
 			margin-left: 157px;
 		}
+
+		.wrapper {
+			width: 580px;
+			height: auto;
+			margin: 0 auto;
+			margin-top: 25px;
+			overflow: hidden;
+		}
+
+		.slide {
+			display: flex;
+		}
+
+		.slide li {
+			flex-shrink: 0;
+			width: 214px;
+			margin: 0 12px;
+		}
+
+		.slide li:first-child {
+			margin: 0 12px 0 0;
+		}
 	/* Contatos */
 		.fifth-sc {
 			width: 100%;
@@ -391,6 +433,8 @@
 		}
 
 		.cpr img {
+			width: 31px;
+			margin: 0 auto;
 			margin-top: 15px;
 		}
 }
@@ -432,6 +476,28 @@
 			font-weight: 700;
 			margin-top: 13px;
 			margin-left: 247.5px;
+		}
+
+		.wrapper {
+			width: 704px;
+			height: auto;
+			margin: 0 auto;
+			margin-top: 30px;
+			overflow: hidden;
+		}
+
+		.slide {
+			display: flex;
+		}
+
+		.slide li {
+			flex-shrink: 0;
+			width: 214px;
+			margin: 0 13px;
+		}
+
+		.slide li:first-child {
+			margin: 0 13px 0 0;
 		}
 	/* Contatos */
 		.fifth-sc {
