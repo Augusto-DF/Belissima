@@ -165,7 +165,7 @@
 	/* Contatos */
 		.fifth-sc {
 			width: 100%;
-			height: 496px;
+			height: 596px;
 			background: url("../img/home/contacts-bg.jpg");
 			background-position: left -50px top -50px;
 			overflow: hidden;
@@ -174,7 +174,7 @@
 		.contacts {
 			position: absolute;
 			width: 290px;
-			height: 436px;
+			height: 536px;
 			margin: 0px 5px;
 			background-color: #F8F7F5;
 			font-size: 18px;
@@ -366,14 +366,14 @@
 	/* Contatos */
 		.fifth-sc {
 			width: 100%;
-			height: 513px;
+			height: 567px;
 			background: url("../img/home/bg-home-contact.jpg") no-repeat center;
 		}
 
 		.contacts {
 			position: absolute;
 			width: 580px;
-			height: 447px;
+			height: 517px;
 			background-color: #F8F7F5;
 			margin-left: 30px;
 			text-align: center;
@@ -504,14 +504,14 @@
 	/* Contatos */
 		.fifth-sc {
 			width: 100%;
-			height: 513px;
+			height: 573px;
 			background: url("../img/home/bg-home-contact.jpg") no-repeat center;
 		}
 
 		.contacts {
 			position: absolute;
 			width: 580px;
-			height: 447px;
+			height: 517px;
 			background-color: #F8F7F5;
 			margin-left: 290px;
 			text-align: center;

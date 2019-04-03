@@ -23,7 +23,6 @@
 					<li>Unhas de gel</li>
 					<li>Unhas de acrigel</li>
 					<li>Unhas de fibra de vidro</li>
-					<li>Unhas de porcelana</li>
 					<li>Unhas postiças</li>
 					<li>Banho de gel</li>
 				</ul>
@@ -34,22 +33,7 @@
 				</ul>
 			</div>
 			<div class="vertical-bar-xl invisible-mb"></div>
-			<div class="invisible-mb">
-				<ul>
-					<h3>Horários</h3>
-
-					<li>Segunda a Sabado: 9h - 18h</li>
-					<li>O salão não abre aos domingos</li>
-
-					<h3 class="break-point">Agende um horário</h3>	
-
-					<p>Ligue agora e agende um horário no </br> 
-					Salão Belissima:</p>
-					<h4>(84) 3207-1599</h4>
-					<h4>(84) 98805-0464 ( Whatsapp )</h4>
-					<h4>Av. dos Ipês, 754 A - Neópolis - </br>Natal - RN</h4>
-				</ul>				
-			</div>
+			<?php include "horarios.php" ?>
 		</div>
 	</section>
 <!-- Serviços -->

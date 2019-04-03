@@ -28,6 +28,8 @@
 				<h4>Av. dos Ipês, 754A, Neópolis, Natal - RN, 59080-115</h4>
 				<h3>Telefone</h3>
 				<h4>(84) 3207-1599</h4>
+				<h3>WhatsApp</h3>
+				<h4>(84) 98805-0464</h4>
 				<h3>Horário</h3>
 				<h4>Segunda - sábado:<br> 9h00 às 18h00</h4>
 			</div>
