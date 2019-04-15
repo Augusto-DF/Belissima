@@ -18,5 +18,12 @@
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
 <script type="module" src="js/script.js"></script>
+<!-- SSL -->
+	<section class="invisibleAll">	
+		<script language="JavaScript" type="text/javascript">
+		TrustLogo("http://belissimaesmalteria.com.br/positivessl_trust_seal_lg_222x54.png", "CL1", "none");
+		</script>
+		<a  href="https://www.positivessl.com/" id="comodoTL" >Positive SSL</a>
+	</section>	
 </body>
 </html>
